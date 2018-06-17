@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "serve": "hexo s --draft"
+    "serve": "hexo s --draft",
+    "deploy": "hexo clean && hexo d -g"
   },
   "hexo": {
     "version": "3.7.1"
