@@ -17,7 +17,7 @@ One of the more interesting recent trends in blockchain governance is the resurg
 
 Explicit on-chain governance is typically touted as having several major advantages. First, unlike the highly conservative philosophy espoused by Bitcoin, it can evolve rapidly and accept needed technical improvements. Second, by creating an _explicit_ decentralized framework, it avoids the perceived pitfalls of _informal_ governance, which is viewed to either be too unstable and prone to chain splits, or prone to becoming too de-facto centralized - the latter being the same argument made in the famous 1972 essay “[Tyranny of Structurelessness](http://www.jofreeman.com/joreen/tyranny.htm)”.
 
-明确的上链治理通常被吹捧为具有几个主要优势。 首先，与比特币所倡导的高度保守的哲学不同，它可以迅速发展并接受所需的技术改进。 其次，通过创建一个_explicit_分散的框架，它可以避免被认为是非常不稳定并且容易出现连锁分裂，或者容易变得过于事实上集中化的非正式治理的陷阱 - 后者与1972年着名论文中的论点相同“Tyranny of Structurelessness”。http://www.jofreeman.com/joreen/tyranny.htm
+明确的上链治理通常被吹捧为具有几个主要优势。 首先，与比特币所倡导的高度保守的哲学不同，它可以迅速发展并接受所需的技术改进。 其次，通过创建一个_explicit_分散的框架，它可以避免非正式治理的缺陷，这种缺陷被认为既不稳定又容易出现连锁分裂，或者容易变得过于事实上的集中—————后者与1972年着名论文中的论点相同“Tyranny of Structurelessness”。http://www.jofreeman.com/joreen/tyranny.htm
 
 Quoting [Tezos documentation](https://www.tezos.com/governance):
 
