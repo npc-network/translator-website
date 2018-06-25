@@ -22,7 +22,9 @@ Explicit on-chain governance is typically touted as having several major advanta
 Quoting [Tezos documentation](https://www.tezos.com/governance):
 
 > While all blockchains offer financial incentives for maintaining consensus on their ledgers, no blockchain has a robust on-chain mechanism that seamlessly amends the rules governing its protocol and rewards protocol development. As a result, first-generation blockchains empower de facto, centralized core development teams or miners to formulate design choices.
+
 > 打发范德萨发达
+
 [And](https://twitter.com/tez0s/status/884528964194238464):
 
 > Yes, but why would you want to make \[a minority chain split\] easier? Splits destroy network effects.
