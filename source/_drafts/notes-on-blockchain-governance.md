@@ -23,11 +23,13 @@ Quoting [Tezos documentation](https://www.tezos.com/governance):
 
 > While all blockchains offer financial incentives for maintaining consensus on their ledgers, no blockchain has a robust on-chain mechanism that seamlessly amends the rules governing its protocol and rewards protocol development. As a result, first-generation blockchains empower de facto, centralized core development teams or miners to formulate design choices.
 
-> 打发范德萨发达
+> 尽管所有区块链都提供财务激励来维护对其分布式账本的一致性，但没有哪个区块链具备这么好鲁棒性的链上机制，来实现无缝修改协议的管理规则和奖励协议开发规则。因此，第一代区块链完成了从事实上的中心化的核心开发团队或矿工，到能够定制设计的多种选择的转变。
 
 [And](https://twitter.com/tez0s/status/884528964194238464):
 
 > Yes, but why would you want to make \[a minority chain split\] easier? Splits destroy network effects.
+
+> 是的，但是为什么
 
 On-chain governance used to select validators also has the benefit that it allows for networks that impose high computational performance requirements on validators without introducing economic centralization risks and other traps of the kind that appear in public blockchains (eg. [the validator’s dilemma](https://eprint.iacr.org/2015/702.pdf)).
 
