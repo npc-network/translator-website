@@ -33,9 +33,11 @@ Quoting [Tezos documentation](https://www.tezos.com/governance):
 
 On-chain governance used to select validators also has the benefit that it allows for networks that impose high computational performance requirements on validators without introducing economic centralization risks and other traps of the kind that appear in public blockchains (eg. [the validator’s dilemma](https://eprint.iacr.org/2015/702.pdf)).
 
-用于选择验证器的链上管理还具有这样的好处，即它允许网络对验证器施加高计算性能要求，而不会引入经济集中化风险和公共区块链中出现的其他类型陷阱（例如[验证器的难题]（https://eprint.iacr.org/2015/702.pdf)
+用于选择验证器的链上管理还具有这样的好处，即它允许网络对验证器施加高计算性能要求，而不会引入经济中心化风险和公链中出现的其他类型陷阱（例如[验证器的难题]（https://eprint.iacr.org/2015/702.pdf)
 
 So far, all in all, on-chain governance seems like a very good bargain…. so what’s wrong with it?
+
+到目前为止，总体而言，链上治理似乎是一个非常好的途径......所以它有什么问题呢？
 
 ### What is Blockchain Governance?
 
