@@ -7,22 +7,22 @@ tags:
 
 _In which I argue that “tightly coupled” on-chain voting is overrated, the status quo of “informal governance” as practiced by Bitcoin, Bitcoin Cash, Ethereum, Zcash and similar systems is much less bad than commonly thought, that people who think that the purpose of blockchains is to completely expunge soft mushy human intuitions and feelings in favor of completely algorithmic governance (emphasis on “completely”) are absolutely crazy, and loosely coupled voting as done by Carbonvotes and similar systems is underrated, as well as describe what framework should be used when thinking about blockchain governance in the first place.  
   
-在我认为“紧密耦合”的在线投票被高估的情况下，比特币，比特币现金，以太坊，Zcash和类似系统实行的“非正式治理”的现状没有通常认为的那么糟糕，那些认为区块链的目的是为了彻底清除模糊的人类直觉和感受以支持完全算法治理（强调“完全”）的人们是彻底疯狂的，Carbonvotes和类似系统所做的松散耦合投票被低估了，描述在考虑区块链治理时首先应该使用什么框架也被低估了。
+在我认为“紧密耦合”的在线投票被高估的情况下，比特币，比特币现金，以太坊，Zcash和类似系统实行的“非正式治理”的现状没有通常认为的那么糟糕，那些认为区块链的目的是为了彻底清除模糊的人类直觉和感受以支持完全算法治理（强调“完全”）的人们是彻底疯狂的，Carbonvotes和类似系统所做的松散耦合投票被低估了，描述在考虑区块链治理时首先应该使用什么框架的重要性也被低估了。
   
 See also: [https://medium.com/@Vlad_Zamfir/against-on-chain-governance-a4ceacd040ca](https://medium.com/@Vlad_Zamfir/against-on-chain-governance-a4ceacd040ca)_
 
 One of the more interesting recent trends in blockchain governance is the resurgence of on-chain coin-holder voting as a multi-purpose decision mechanism. Votes by coin holders are sometimes used in order to decide who operates the super-nodes that run a network (eg. DPOS in EOS, NEO, Lisk and other systems), sometimes to vote on protocol paramters (eg. the Ethereum gas limit) and sometimes to vote on and directly implement protocol upgrades wholesale (eg. [Tezos](http://tezos.com/)). In all of these cases, the votes are automatic - the protocol itself contains all of the logic needed to change the validator set or to update its own rules, and does this automatically in response to the result of votes.
 
-区块链治理最近的一个更有趣的趋势是作为多用途决策机制的在线硬币持有人投票机制的复苏。 硬币持有人的投票有时用于决定谁来运营超级节点从而运行整个网络（例如，EOS，NEO，Lisk和其他系统下的DPOS），有时对协议参数进行投票（例如以太坊gas限制） 有时可以对协议参数进行投票（例如以太坊gas限制），有时可以进行投票并直接实施协议升级(eg. [Tezos](http://tezos.com/))。在所有这些情况下，投票都是自动的 - 协议本身包含了更改验证器集或更新自己的规则所需的所有逻辑，并自动响应投票结果。
+区块链治理最近的一个更有趣的趋势是作为多用途决策机制的在线硬币持有人投票机制的复苏。 硬币持有人的投票有时用于决定谁来运营超级节点从而运行整个网络（例如，EOS，NEO，Lisk和其他系统下的DPOS），有时对协议参数进行投票（例如以太坊gas限制） 有时可以对协议参数进行投票（例如以太坊gas限制），有时可以进行投票并直接实施协议升级(eg. [Tezos](http://tezos.com/))。在所有这些情况下，投票都是自动的——协议本身包含了更改验证器集或更新自己的规则所需的所有逻辑，并自动响应投票结果。
 
 Explicit on-chain governance is typically touted as having several major advantages. First, unlike the highly conservative philosophy espoused by Bitcoin, it can evolve rapidly and accept needed technical improvements. Second, by creating an _explicit_ decentralized framework, it avoids the perceived pitfalls of _informal_ governance, which is viewed to either be too unstable and prone to chain splits, or prone to becoming too de-facto centralized - the latter being the same argument made in the famous 1972 essay “[Tyranny of Structurelessness](http://www.jofreeman.com/joreen/tyranny.htm)”.
 
-明确的上链治理通常被吹捧为具有几个主要优势。 首先，与比特币所倡导的高度保守的哲学不同，它可以迅速发展并接受所需的技术改进。 其次，通过创建一个_explicit_分散的框架，它可以避免非正式治理的缺陷，这种缺陷被认为既不稳定又容易出现连锁分裂，或者容易变得过于事实上的集中——后者与1972年着名论文中的论点相同“Tyranny of Structurelessness”。http://www.jofreeman.com/joreen/tyranny.htm
+明确的链上治理通常被吹捧为具有几个主要优势。 首先，与比特币所倡导的高度保守的哲学不同，它可以迅速发展并接受所需的技术改进。 其次，通过创建一个_explicit_分散的框架，它可以避免非正式治理的缺陷，这种缺陷被认为既不稳定又容易出现连锁分裂，或者容易变得过于事实上的中心化——后者与1972年著名论文“Tyranny of Structurelessness”中的论点相同。http://www.jofreeman.com/joreen/tyranny.htm
 
 Quoting [Tezos documentation](https://www.tezos.com/governance):
 
 > While all blockchains offer financial incentives for maintaining consensus on their ledgers, no blockchain has a robust on-chain mechanism that seamlessly amends the rules governing its protocol and rewards protocol development. As a result, first-generation blockchains empower de facto, centralized core development teams or miners to formulate design choices.
-
+> 打发范德萨发达
 [And](https://twitter.com/tez0s/status/884528964194238464):
 
 > Yes, but why would you want to make \[a minority chain split\] easier? Splits destroy network effects.
