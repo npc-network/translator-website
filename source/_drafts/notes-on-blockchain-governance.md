@@ -29,7 +29,7 @@ Quoting [Tezos documentation](https://www.tezos.com/governance):
 
 > Yes, but why would you want to make \[a minority chain split\] easier? Splits destroy network effects.
 
-> 是的，但是为什么
+> 是的，但为什么人们想让[少数连锁拆分]变得更容易？ 拆分会摧毁网络效应。
 
 On-chain governance used to select validators also has the benefit that it allows for networks that impose high computational performance requirements on validators without introducing economic centralization risks and other traps of the kind that appear in public blockchains (eg. [the validator’s dilemma](https://eprint.iacr.org/2015/702.pdf)).
 
