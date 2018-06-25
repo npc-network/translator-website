@@ -33,7 +33,7 @@ Quoting [Tezos documentation](https://www.tezos.com/governance):
 
 On-chain governance used to select validators also has the benefit that it allows for networks that impose high computational performance requirements on validators without introducing economic centralization risks and other traps of the kind that appear in public blockchains (eg. [the validator’s dilemma](https://eprint.iacr.org/2015/702.pdf)).
 
-用于选择验证器的链上管理还具有这样的好处，即它允许网络对验证器施加高计算性能要求，而不会引入经济中心化风险和公链中出现的其他类型陷阱（例如[验证器的难题]（https://eprint.iacr.org/2015/702.pdf)
+用于选择验证器的链上管理还具有这样的好处，即它允许网络对验证器施加高计算性能要求，而不会引入经济中心化风险和公链中出现的其他类型陷阱（例如[验证器的难题]（https://eprint.iacr.org/2015/702.pdf)）
 
 So far, all in all, on-chain governance seems like a very good bargain…. so what’s wrong with it?
 
@@ -41,7 +41,11 @@ So far, all in all, on-chain governance seems like a very good bargain…. so wh
 
 ### What is Blockchain Governance?
 
+### 什么是区块链治理
+
 To start off, we need to describe more clearly what the process of “blockchain governance” _is_. Generally speaking, there are two informal models of governance, that I will call the “decision function” view of governance and the “coordination” view of governance. The decision function view treats governance as a function `f(x1, x2 ... xn) -> y`, where the inputs are the wishes of various legitimate stakeholders (senators, the president, property owners, shareholders, voters, etc) and the output is the decision.
+
+首先，我们需要更清楚地描述“区块链治理”的过程。 一般来说，有两种非正式的治理模式，我将称之为治理的“决策职能”治理观点和“协调”治理观点。 决策智能观点将治理视为一个函数‘f（x1，x2 ... xn） - > y’，其中输入是各种合法利益相关者（参议员，总统，财产所有者，股东，选民等）的意愿， 而输出的是决定。
 
 ![](http://vitalik.ca/files/decisionfunction.png)
 
