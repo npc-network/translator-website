@@ -23,7 +23,7 @@ Quoting [Tezos documentation](https://www.tezos.com/governance):
 
 > While all blockchains offer financial incentives for maintaining consensus on their ledgers, no blockchain has a robust on-chain mechanism that seamlessly amends the rules governing its protocol and rewards protocol development. As a result, first-generation blockchains empower de facto, centralized core development teams or miners to formulate design choices.
 
-> 尽管所有区块链都提供财务激励来维护对其分布式账本的一致性，但没有哪个区块链具备这么好鲁棒性的链上机制，来实现无缝修改协议的管理规则和奖励协议开发规则。因此，第一代区块链完成了从事实上的中心化的核心开发团队或矿工，到能够定制设计的多种选择的转变。
+> 尽管所有区块链都提供财务激励来维护对其分布式账本的一致性，但没有哪个区块链具备这么好鲁棒性的链上机制，能够实现无缝修改协议的管理规则和奖励协议开发规则。因此，第一代区块链完成的是从事实上的中心化的核心开发团队或矿工，到定制设计的选择多样化转变。
 
 [And](https://twitter.com/tez0s/status/884528964194238464):
 
