@@ -70,27 +70,46 @@ An abstract coordination game. You benefit heavily from making the same move as 
 
 In these cases, it’s in your interest to go if everyone else is going, and stop if everyone else is stopping. You can think of coordination institutions as putting up green or red flags in the air saying “go” or “stop”, _with an established culture_ that everyone watches these flags and (usually) does what they say. Why do people have the incentive to follow these flags? Because _everyone else_ is already following these flags, and you have the incentive to do the same thing as what everyone else is doing.
 
+在这些案例中，和大家的行动一致是你的利益驱使。你可以想象，协调机构举起绿色或者红色的旗帜代表“走”或“停”，根据已有的规则大家看到这些旗帜通常会做出机构所期望的行为。为什么人们有动机去跟随着这些旗帜的引导呢？因为其他人都这么做了，而你有动机像大家一样行动。
+
 ![](http://vitalik.ca/files/byzantinegeneral.jpg)  
 A Byzantine general rallying his troops forward. The purpose of this isn't just to make the soldiers feel brave and excited, but also to reassure them that _everyone else_ feels brave and excited and will charge forward as well, so an individual soldier is not just committing suicide by charging forward alone.
 
-  
+一个拜占庭将军集结他的部队前进。这一行为的目的不仅仅是让士兵受到鼓舞并变得勇敢，同样是向他们显示每个人都是一样的勇敢和振奋，并且会向前冲锋，所以不是士兵单个个体向前冲锋而导致自杀行为。
 
 > **Strong claim**: this concept of coordination flags encompasses _all_ that we mean by "governance"; in scenarios where coordination games (or more generally, multi-equilibrium games) do not exist, the concept of governance is meaningless.
 
+强有力的宣言：这个协调指令的概念囊括了“治理”的所有内容，在一个协调博弈（或者更广义的来说，多平衡博弈）不存在的场景下，治理的概念是毫无意义的。
+
 In the real world, military orders from a general function as a flag, and in the blockchain world, the simplest example of such a flag is the mechanism that tells people whether or not a hard fork “is happening”. Coordination institutions can be very formal, or they can be informal, and often give suggestions that are ambiguous. Flags would ideally always be either red or green, but sometimes a flag might be yellow, or even holographic, appearing green to some participants and yellow or red to others. Sometimes that are also multiple flags that conflict with each other.
 
+在现实世界中，来自一个将军的军事命令是一面旗帜，在区块链世界中，这类指令最简单的例子是告诉人们是否进行硬分叉的机制。协调机构可以非常正式，也可以非正式，他们经常给出模糊的建议。而理想的指令，最好要么是红的要么是绿的，但有时候是也有黄的，甚至全息的，这意味着对有些人来说它是绿的，对有些人却是黄的或者红的。有时还有多条指令相互矛盾。
+
 The key questions of governance thus become:
+
+治理的核心问题因此变成：
 
 *   What should layer 1 be? That is, what features should be set up in the initial protocol itself, and how does this influence the ability to make formulaic (ie. decision-function-like) protocol changes, as well as the level of power of different kinds of agents to act in different ways?
 *   What should layer 2 be? That is, what coordination institutions should people be encouraged to care about?
 
+*   最底层应该是怎样的？意思是说，我们应该为最底层设计怎样的特点，以及这样的特点应该怎样去影响我们公式化地改变协议的能力，以及不同种类不同级别的代理如何以不同的方式行动？
+
+*   第二层又该是怎样的？这是说，应该鼓励人们关心什么样的协调机构？
+
 ### The Role of Coin Voting
+
+### 持币投票扮演的角色
 
 Ethereum also has a history with coin voting, including:
 
+以太坊同样有一个代币投票的历史，包括：
+
 *   **DAO proposal votes**: [https://daostats.github.io/proposals.html](https://daostats.github.io/proposals.html)
+*   **DAO 提案投票 ：https://daostats.github.io/proposals.html
 *   **The DAO Carbonvote**: [http://v1.carbonvote.com/](http://v1.carbonvote.com/)
+*   **DAO Carbonvote：http://v1.carbonvote.com/
 *   **The EIP 186/649/669 Carbonvote**: [http://carbonvote.com/](http://carbonvote.com/)
+*   **EIP 186/649/669 Carbonvote：http://carbonvote.com/
 
 ![](http://vitalik.ca/files/vote2.png) ![](http://vitalik.ca/files/vote3.png)  
   
@@ -100,13 +119,23 @@ Ethereum also has a history with coin voting, including:
 
 These three are all examples of _loosely coupled_ coin voting, or coin voting as a layer 2 coordination institution. Ethereum does not have any examples of _tightly coupled_ coin voting (or, coin voting as a layer 1 in-protocol feature), though it _does_ have an example of tightly coupled _miner_ voting: miners’ right to vote on the gas limit. Clearly, tightly coupled voting and loosely coupled voting are competitors in the governance mechanism space, so it’s worth dissecting: what are the advantages and disadvantages of each one?
 
+这三个例子都是松耦合代币投票，或者代币投票作为第二层的协调机构。以太坊没有任何紧密耦合代币投票的例子（或者代币投票作为第一层协议内功能），虽然它确实有密耦合矿工投票的例子：矿工对gas上限投票的权力。显然，密耦合投票和松耦合投票在治理机制领域是竞争对手的关系。所以，他们的优缺点也值得剖析。
+
 Assuming zero transaction costs, and if used as a sole governance mechanism, the two are clearly equivalent. If a loosely coupled vote says that change X should be implemented, then that will serve as a “green flag” encouraging everyone to download the update; if a minority wants to rebel, they will simply not download the update. If a tightly coupled vote implements change X, then the change happens automatically, and if a minority wants to rebel they can install a hard fork update that cancels the change. However, there clearly are nonzero transaction costs associated with making a hard fork, and this leads to some very important differences.
+
+假设零交易费，如果被用作唯一的治理机制，两者是对等的。如果一个松耦合投票说改变X的方案应该被执行，就会释放一个“绿色旗帜（命令）”来鼓励所有人去下载那个更新。如果一个密耦合投票决定改变X的方案应该被执行，那么改变就会自动发生，并且如果少数人想要反抗，他们只能启动一个硬分叉更新来取消这次改变。然而，硬分叉意味着存在实际不为零的交易费，这就产生了一些与松耦合投票非常重要的不同点。
 
 One very simple, and important, difference is that tightly coupled voting creates a default in favor of the blockchain adopting what the majority wants, requiring minorities to exert great effort to coordinate a hard fork to preserve a blockchain’s existing properties, whereas loosely coupled voting is only a coordination tool, and still requires users to actually download and run the software that implements any given fork. But there are also many other differences. Now, let us go through some arguments _against_ voting, and dissect how each argument applies to voting as layer 1 and voting as layer 2.
 
+一个非常简单且重要的不同点是，密耦合投票在区块链中创造了一个偏爱多数人认可的决策默认机制，并要求少数人花大力气去进行一次硬分叉来保存区块链之前的特性。而松耦合投票只是一个协调工具，它仍然要求用户们自行实际下载并运行这些含有更新的软件。当然还有很多不同点，现在让我们解析每一个论点是如何应用于投票作为最底层和次底层的。
+
 ### Low Voter Participation
 
+### 低投票参与率
+
 One of the main criticisms of coin voting mechanisms so far is that, no matter where they are tried, they tend to have very low voter participation. The DAO Carbonvote only had a voter participation rate of 4.5%:
+
+代币投票一个被批驳的主要地方在于，不论这种机制在哪里被尝试，投票参与率总是很低。DAO Carbonvote只有4.5%的参与率。
 
 ![](http://upyun-assets.ethfans.org/uploads/photo/image/97e569c5676248db835c1a01eaf0e790.png)
 
@@ -114,17 +143,27 @@ One of the main criticisms of coin voting mechanisms so far is that, no matter w
 
 Additionally, wealth distribution is very unequal, and the results of these two factors together are best described by this image created by a critic of the DAO fork:
 
+此外，财富分布也非常的不均衡，而这两个因素共同导致的结果可以被下面这幅图完美的展现，作为对DAO分叉（fork）的批判：
+
 ![](https://i0.wp.com/elaineou.com/wp-content/uploads/2016/07/Screen-Shot-2016-07-18-at-1.28.08-PM.png)
 
   
 
 The EIP 186 Carbonvote had ~2.7 million ETH voting. The DAO proposal votes [did not fare better](http://themerkle.com/the-dao-undergoes-low-voting-turnout/), with participation never reaching 10%. And outside of Ethereum things are not sunny either; even in Bitshares, a system where the core social contract is designed around voting, the top delegate in an approval vote only got [17% of the vote](https://bitcointalk.org/index.php?topic=916696.330;imode), and in Lisk it got [up to 30%](https://explorer.lisk.io/delegateMonitor), though as we will discuss later these systems have other problems of their own.
 
+EIP 186 Carbonvote有大约270万的ETH投票。DAO提案投票也好不到哪里去，而投票率却从未超过10%。以太坊以外的投票也没好多少；即使在Bitshares，一个围绕投票设计出来的专属核心社会契约的系统中，得票率最高的代表也只有17%的选票，虽然在Lisk中有30%，我们之后会讨论这个系统，它也有问题。
+
 Low voter participation means two things. First, the vote has a harder time achieving a perception of legitimacy, because it only reflects the views of a small percentage of people. Second, an attacker with only a small percentage of all coins can sway the vote. These problems exist regardless of whether the vote is tightly coupled or loosely coupled.
+
+低投票参与率意味着两件事。第一，这个投票很难达到一个合理的百分比，也无法展示出合法性，因为它仅仅反映了小部分人的观点。第二，一个攻击者只需要持有小部分的代币就能够左右整个投票。这些问题在无论是松耦合还是密耦合的投票中都一样存在。
 
 ### Game-Theoretic Attacks
 
+### 博弈论论攻击
+
 Aside from “the big hack” that received the bulk of the media attention, the DAO also had a number of much smaller game-theoretic vulnerabilities; [this article from HackingDistributed](http://hackingdistributed.com/2016/05/27/dao-call-for-moratorium/) does a good job of summarizing them. But this is only the tip of the iceberg. Even if all of the finer details of a voting mechanism are implemented correctly, voting mechanisms in general have a large flaw: in any vote, the probability that any given voter will have an impact on the result is tiny, and so the personal incentive that each voter has to vote correctly is almost insignificant. And if each person’s size of the stake is small, their incentive to vote correctly is insignificant _squared_. Hence, a relatively small bribe spread out across the participants may suffice to sway their decision, possibly in a way that they collectively might quite disapprove of.
+
+除了受到大部分媒体关注的“大黑客”之外，DAO还有一些小得多的博弈论漏洞; [来自HackingDistributed的这篇文章]（http://hackingdistributed.com/2016/05/27/dao-call-for-moratorium/）在总结它们方面做得很好。 但这只是冰山一角。 即使投票机制的所有细节都得到了正确实施，投票机制通常也存在很大缺陷：在任何投票中，任何特定投票人对结果产生影响的可能性都很小，因此， 每个选民必须正确投票几乎是微不足道的。 如果每个人的股份规模都很小，他们正确投票的动机是微不足道的。 因此，在参与者身上散布的相对较小的贿赂可能足以影响他们的决定，可能以他们可能完全不同意的方式行事。
 
 Now you might say, people are not evil selfish profit-maximizers that will accept a $0.5 bribe to vote to give twenty million dollars to Josh arza just because the above calculation says their individual chance of affecting anything is tiny; rather, they would altruistically refuse to do something that evil. There are two responses to this criticism.
 
