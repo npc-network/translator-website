@@ -57,14 +57,16 @@ The decision function view is often useful as an approximation, but it clearly f
 
 The coordination model of governance, in contrast, sees governance as something that exists in layers. The bottom layer is, in the real world, the laws of physics themselves (as a geopolitical realist would say, guns and bombs), and in the blockchain space we can abstract a bit further and say that it is each individual’s ability to run whatever software they want in their capacity as a user, miner, stakeholder, validator or whatever other kind of agent a blockchain protocol allows them to be. The bottom layer is always the ultimate deciding layer; if, for example, all Bitcoin users wake up one day and decides to edit their clients’ source code and replace the entire code with an Ethereum client that listens to balances of a particular ERC20 token contract, then that means that that ERC20 token _is_ bitcoin. The bottom layer’s ultimate governing power cannot be stopped, but the actions that people take on this layer can be _influenced_ by the layers above it.
 
-相反，在协调模式的治理中，治理被视为是分层存在的事物。 在现实世界中，底层是物理学本身的规律（作为地缘政治现实主义者会提到枪支和炸弹），而在区块链空间中我们可以进一步抽象并说它是每个人运行任何东西的能力他们希望以软件作为用户，矿工，利益相关者，验证者或区块链协议允许他们使用的任何其他类型的代理。 底层始终是最终的决定层; 例如，如果所有比特币用户有一天醒来，并决定编辑客户的源代码并用一个倾听特定ERC20令牌合约余额的以太坊客户端替换整个代码，那么这意味着该ERC20令牌是比特币。 底层的最终执政权力不可能停止，但人们在这一层上采取的行动可能会受到其上层的影响。
+而协调治理模型，相比之下，将治理视作存在于多层面的东西。最底层是，在现实世界中，自然界的法则（一个地缘政治现实主义者会说：枪炮和炸弹）。在区块链的空间中我们可以抽象一点地讲：对每个独立个体来说，在他们的能力范围之内，作为用户，矿工，权益拥有者，验证者等等，按自由意志运行什么样的软件是他们的能力。而最底层总是最终的决策层；比如，如果所有的比特币用户在某天醒来并决定将他们的源代码改为符合ERC20 token交易的以太坊客户端，那么这就意味着那个ERC20 token就是比特币。最底层的最终决策力量是不可阻挡的，但是人们在这一层面上的行为可以被更上层所影响。
 
 The second (and crucially important) layer is coordination institutions. The purpose of a coordination institution is to create focal points around how and when individuals should act in order to better coordinate behavior. There are many situations, both in blockchain governance and in real life, where if you act in a certain way alone, you are likely to get nowhere (or worse), but if everyone acts together a desired result can be achieved.
+
+次底层（至关重要）是负责协调的机构。协调机构的目的是围绕个体怎样行动才能创造一个更好的协调行为创造一个范本。在区块链治理和现实世界中都有许多这样的情况：如果只是一个人以一种特定的行为行事什么都不会发生（或者变得更糟），但是如果每个人都一起行动，就能取得理想的结果。
 
 ![](http://vitalik.ca/files/coordinationgame.png)  
 An abstract coordination game. You benefit heavily from making the same move as everyone else.
 
-  
+一个抽象的协调游戏，你能够通过像其他人一样行动而受益
 
 In these cases, it’s in your interest to go if everyone else is going, and stop if everyone else is stopping. You can think of coordination institutions as putting up green or red flags in the air saying “go” or “stop”, _with an established culture_ that everyone watches these flags and (usually) does what they say. Why do people have the incentive to follow these flags? Because _everyone else_ is already following these flags, and you have the incentive to do the same thing as what everyone else is doing.
 
