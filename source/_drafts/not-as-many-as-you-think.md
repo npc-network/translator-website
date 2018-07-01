@@ -33,8 +33,8 @@ Even if an early developer had the free cash and foresight to purchase a bunch o
 
 即使早期的开发者有自由现金和远见去购买很多比特币，他们可能也是头脑清醒的并且遵循经过尝试和真实的投资建议：
 
-1）制定长期计划并坚持下去，而忽视短期的市场浮动
-2）多样化; 混合高风险和低风险投资，并在任何一项投资主导你的投资组合时重新做平衡。
+1) 制定长期计划并坚持下去，而忽视短期的市场浮动
+2) 多样化; 混合高风险和低风险投资，并在任何一项投资主导你的投资组合时重新做平衡
 
 Imagine a rational, disciplined person who had $100,000 in investments before they heard about Bitcoin. On January 1, 2011 they decided to take a risk and spend five thousand dollars to buy 10,000 BTC. Their long-term plan: evaluate their holdings once a year, and rebalance at the beginning of the year if their BTC holdings were more than 10% of their total investments.
 
