@@ -172,11 +172,15 @@ Now you might say, people are not evil selfish profit-maximizers that will accep
 
 First, there are ways to make a “bribe” that are quite plausible; for example, an exchange can offer interest rates for deposits (or, even more ambiguously, use the exchange’s own money to build a great interface and features), with the exchange operator using the large quantity of deposits to vote as they wish. Exchanges profit from chaos, so their incentives are clearly quite misaligned with users _and_ coin holders.
 
-首先，有一些方法可以使“贿赂”变得相当合理; 例如，交易所可以提供存款利率（或者更加含糊地，使用交易所自己的资金建立一个很好的界面和功能），交易所运营商使用大量存款进行投票。 交换从混乱中获利，因此他们的激励显然与用户和硬币持有者错位。
+首先，有一些方法可以使“贿赂”变得相当合理; 例如，交易所可以提供存款利率（或者更加含糊地，使用交易所自己的资金建立一个很好的界面和功能），交易所运营商使用大量存款进行投票。 交换从混乱中获利，因此他们的激励显然与用户和硬币持有人之间存在很大的偏差。
 
 Second, and more damningly, in practice it seems like people, at least in their capacity as crypto token holders, _are_ profit maximizers, and seem to see nothing evil or selfish about taking a bribe or two. As “Exhibit A”, we can look at the situation with Lisk, where the delegate pool seems to have been successfully captured by two major “political parties” that explicitly bribe coin holders to vote for them, and also require each member in the pool to vote for all the others.
 
+其次，更糟糕的是，在实践中，似乎人们都是利润最大化者，至少以加密代币持有者的身份的人是这样，并且似乎没有看到任何关于收受贿赂的邪恶或自私。 作为“附件A”，我们可以看看Lisk的情况，代表库似乎已被两个主要“政党”成功捕获，这两个政党明确贿赂投币持有人投票给他们，并要求池中的每个成员投票支持所有其他人。
+
 Here’s LiskElite, with 55 members (out of a total 101):
+
+这是LiskElite，有55名成员（总共101名成员）：
 
 ![](http://vitalik.ca/files/liskpool1.png)
 
@@ -184,17 +188,23 @@ Here’s LiskElite, with 55 members (out of a total 101):
 
 Here’s LiskGDT, with 33 members:
 
+这是LiskGDT，有33名成员：
+
 ![](http://vitalik.ca/files/liskpool2.png)
 
   
 
 And as “Exhibit B” some voter bribes being paid out [in Ark](https://bitcointalk.org/index.php?topic=1835497.new):
 
+而“图表B”中，一些选民贿赂（https://bitcointalk.org/index.php?topic=1835497.new)支付：
+
 ![](https://i.imgur.com/evqfsMj.png)
 
   
 
 Here, note that there is a key difference between tightly coupled and loosely coupled votes. In a loosely coupled vote, direct or indirect vote bribing is also possible, but if the community agrees that some given proposal or set of votes constitutes a game-theoretic attack, they can simply socially agree to ignore it. And in fact this has kind of already happened - the Carbonvote contains a blacklist of addresses corresponding to known exchange addresses, and votes from these addresses are not counted. In a tightly coupled vote, there is no way to create such a blacklist at protocol level, because agreeing who is part of the blacklist is _itself_ a blockchain governance decision. But since the blacklist is part of a community-created voting tool that only indirectly influences protocol changes, voting tools that contain bad blacklists can simply be rejected by the community.
+
+在这里，请注意紧密耦合和松散耦合的投票之间存在关键区别。 在一个松散耦合的投票中，直接或间接的投票贿赂也是可能的，但如果社区同意某些给定的提案或一组投票构成游戏理论攻击，他们可以简单地在社会上同意忽略它。 事实上，这种情况已经发生 - Carbonvote包含与已知交换地址相对应的黑名单地址，并且不计算来自这些地址的投票。 在紧密耦合的投票中，没有办法在协议级别创建这样的黑名单，因为同意谁是黑名单的一部分是_itself_区块链治理决策。 但由于黑名单是社区创建的投票工具的一部分，只会间接影响协议变更，因此社区可能会拒绝包含不良黑名单的投票工具。
 
 It’s worth noting that this section **is not** a prediction that all tightly coupled voting systems will quickly succumb to bribe attacks. It’s entirely possible that many will survive for one simple reason: all of these projects have founders or foundations with large premines, and these act as large centralized actors that are interested in their platforms’ success that are not vulnerable to bribes, and hold enough coins to outweigh most bribe attacks. However, this kind of centralized trust model, while arguably useful in some contexts in a project’s early stages, is clearly one that is not sustainable in the long term.
 
