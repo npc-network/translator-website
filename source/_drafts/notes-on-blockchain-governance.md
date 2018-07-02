@@ -90,9 +90,10 @@ The key questions of governance thus become:
 治理的核心问题因此变成：
 
 *   What should layer 1 be? That is, what features should be set up in the initial protocol itself, and how does this influence the ability to make formulaic (ie. decision-function-like) protocol changes, as well as the level of power of different kinds of agents to act in different ways?
-*   What should layer 2 be? That is, what coordination institutions should people be encouraged to care about?
 
 *   最底层应该是怎样的？意思是说，我们应该为最底层设计怎样的特点，以及这样的特点应该怎样去影响我们公式化地改变协议的能力，以及不同种类不同级别的代理如何以不同的方式行动？
+
+*   What should layer 2 be? That is, what coordination institutions should people be encouraged to care about?
 
 *   第二层又该是怎样的？这是说，应该鼓励人们关心什么样的协调机构？
 
@@ -105,11 +106,11 @@ Ethereum also has a history with coin voting, including:
 以太坊同样有一个代币投票的历史，包括：
 
 *   **DAO proposal votes**: [https://daostats.github.io/proposals.html](https://daostats.github.io/proposals.html)
-*   **DAO 提案投票 ：https://daostats.github.io/proposals.html
+*   DAO 提案投票 ：https://daostats.github.io/proposals.html
 *   **The DAO Carbonvote**: [http://v1.carbonvote.com/](http://v1.carbonvote.com/)
-*   **DAO Carbonvote：http://v1.carbonvote.com/
+*   DAO Carbonvote：http://v1.carbonvote.com/
 *   **The EIP 186/649/669 Carbonvote**: [http://carbonvote.com/](http://carbonvote.com/)
-*   **EIP 186/649/669 Carbonvote：http://carbonvote.com/
+*   EIP 186/649/669 Carbonvote：http://carbonvote.com/
 
 ![](http://vitalik.ca/files/vote2.png) ![](http://vitalik.ca/files/vote3.png)  
   
@@ -123,7 +124,7 @@ These three are all examples of _loosely coupled_ coin voting, or coin voting as
 
 Assuming zero transaction costs, and if used as a sole governance mechanism, the two are clearly equivalent. If a loosely coupled vote says that change X should be implemented, then that will serve as a “green flag” encouraging everyone to download the update; if a minority wants to rebel, they will simply not download the update. If a tightly coupled vote implements change X, then the change happens automatically, and if a minority wants to rebel they can install a hard fork update that cancels the change. However, there clearly are nonzero transaction costs associated with making a hard fork, and this leads to some very important differences.
 
-假设零交易费，如果被用作唯一的治理机制，两者是对等的。如果一个松耦合投票说改变X的方案应该被执行，就会释放一个“绿色旗帜（命令）”来鼓励所有人去下载那个更新。如果一个密耦合投票决定改变X的方案应该被执行，那么改变就会自动发生，并且如果少数人想要反抗，他们只能启动一个硬分叉更新来取消这次改变。然而，硬分叉意味着存在实际不为零的交易费，这就产生了一些与松耦合投票非常重要的不同点。
+假设零交易费，如果被用作唯一的治理机制，两者是对等的。如果一个松耦合投票认为改变X的方案应该被执行，就会释放一个“绿色旗帜（命令）”来鼓励所有人去下载那个更新。如果一个密耦合投票决定改变X的方案应该被执行，那么改变就会自动发生，并且如果少数人想要反抗，他们只能启动一个硬分叉更新来取消这次改变。然而，硬分叉意味着存在实际不为零的交易费，这就产生了一些与松耦合投票非常重要的不同点。
 
 One very simple, and important, difference is that tightly coupled voting creates a default in favor of the blockchain adopting what the majority wants, requiring minorities to exert great effort to coordinate a hard fork to preserve a blockchain’s existing properties, whereas loosely coupled voting is only a coordination tool, and still requires users to actually download and run the software that implements any given fork. But there are also many other differences. Now, let us go through some arguments _against_ voting, and dissect how each argument applies to voting as layer 1 and voting as layer 2.
 
@@ -151,7 +152,7 @@ Additionally, wealth distribution is very unequal, and the results of these two 
 
 The EIP 186 Carbonvote had ~2.7 million ETH voting. The DAO proposal votes [did not fare better](http://themerkle.com/the-dao-undergoes-low-voting-turnout/), with participation never reaching 10%. And outside of Ethereum things are not sunny either; even in Bitshares, a system where the core social contract is designed around voting, the top delegate in an approval vote only got [17% of the vote](https://bitcointalk.org/index.php?topic=916696.330;imode), and in Lisk it got [up to 30%](https://explorer.lisk.io/delegateMonitor), though as we will discuss later these systems have other problems of their own.
 
-EIP 186 Carbonvote有大约270万的ETH投票。DAO提案投票也好不到哪里去，而投票率却从未超过10%。以太坊以外的投票也没好多少；即使在Bitshares，一个围绕投票设计出来的专属核心社会契约的系统中，得票率最高的代表也只有17%的选票，虽然在Lisk中有30%，我们之后会讨论这个系统，它也有问题。
+EIP 186 Carbonvote有大约270万的ETH投票。DAO提案投票也好不到哪里去，而投票率却从未超过10%DAO提案投票[并没有更好]（参见http://themerkle.com/the-dao-undergoes-low-voting-turnout/)。以太坊以外的投票也没好多少；即使在Bitshares，一个围绕投票设计出来的专属核心社会契约的系统中，得票率最高的代表也只有17%的选票(https://bitcointalk.org/index.php?topic=916696.330;imode)，虽然在Lisk中有30%，我们之后会讨论这个系统，它也有问题。
 
 Low voter participation means two things. First, the vote has a harder time achieving a perception of legitimacy, because it only reflects the views of a small percentage of people. Second, an attacker with only a small percentage of all coins can sway the vote. These problems exist regardless of whether the vote is tightly coupled or loosely coupled.
 
@@ -167,7 +168,11 @@ Aside from “the big hack” that received the bulk of the media attention, the
 
 Now you might say, people are not evil selfish profit-maximizers that will accept a $0.5 bribe to vote to give twenty million dollars to Josh arza just because the above calculation says their individual chance of affecting anything is tiny; rather, they would altruistically refuse to do something that evil. There are two responses to this criticism.
 
+现在你可能会说，人们不是邪恶自私的利益最大化者，不会仅仅因为上述结论表明个人影响任何事物的机会比较小就投票给Josh arza，让他得到2000万，相反，他们会无私地拒绝做一些邪恶的事情。 对这种批评有两个回应。
+
 First, there are ways to make a “bribe” that are quite plausible; for example, an exchange can offer interest rates for deposits (or, even more ambiguously, use the exchange’s own money to build a great interface and features), with the exchange operator using the large quantity of deposits to vote as they wish. Exchanges profit from chaos, so their incentives are clearly quite misaligned with users _and_ coin holders.
+
+首先，有一些方法可以使“贿赂”变得相当合理; 例如，交易所可以提供存款利率（或者更加含糊地，使用交易所自己的资金建立一个很好的界面和功能），交易所运营商使用大量存款进行投票。 交换从混乱中获利，因此他们的激励显然与用户和硬币持有者错位。
 
 Second, and more damningly, in practice it seems like people, at least in their capacity as crypto token holders, _are_ profit maximizers, and seem to see nothing evil or selfish about taking a bribe or two. As “Exhibit A”, we can look at the situation with Lisk, where the delegate pool seems to have been successfully captured by two major “political parties” that explicitly bribe coin holders to vote for them, and also require each member in the pool to vote for all the others.
 
