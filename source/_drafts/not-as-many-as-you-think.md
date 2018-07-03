@@ -16,7 +16,7 @@ It was easy to lose coins. They weren’t worth much, so people didn’t bother 
 
 那是一个糟糕的假设，出于种种原因：
 
-当时很容易丢币。 它们的价值不高，所以人们没有花时间保证它们的安全行并支持它们。
+当时很容易丢币。 它们的价值不高，所以人们没有花时间保证它们的安全行并备份它们。
 
 Many of the early developers didn’t have extra money to buy coins; they were still in school, or were pouring all of their money into a startup. Venture capitalists were NOT throwing money at Bitcoin startups back in 2010 and 2011.
 
@@ -46,4 +46,4 @@ I created a spreadsheet showing what happens. They would do extremely well, endi
 
 Which is nothing to sneeze at; 40 BTC is worth a few hundred thousand dollars, and 5 million dollars in safe, liquid investments is enough to fund a very comfortable retirement.
 
-不能忽视的是，40 BTC价值几十万美元，以及500万美元有保障，流动投资足以提供一个非常舒适的退休生活。
+不能忽视的是，40 BTC价值几十万美元，以及500万美元有保障有流动性的投资足以提供一个非常舒适的退休生活。
