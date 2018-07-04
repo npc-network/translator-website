@@ -152,7 +152,7 @@ Additionally, wealth distribution is very unequal, and the results of these two 
 
 The EIP 186 Carbonvote had ~2.7 million ETH voting. The DAO proposal votes [did not fare better](http://themerkle.com/the-dao-undergoes-low-voting-turnout/), with participation never reaching 10%. And outside of Ethereum things are not sunny either; even in Bitshares, a system where the core social contract is designed around voting, the top delegate in an approval vote only got [17% of the vote](https://bitcointalk.org/index.php?topic=916696.330;imode), and in Lisk it got [up to 30%](https://explorer.lisk.io/delegateMonitor), though as we will discuss later these systems have other problems of their own.
 
-EIP 186 Carbonvote有大约270万的ETH投票。DAO提案投票也好不到哪里去，而投票率却从未超过10%DAO提案投票并没有更好(http://themerkle.com/the-dao-undergoes-low-voting-turnout/)。以太坊以外的投票也没好多少；即使在Bitshares，一个围绕投票设计出来的专属核心社会契约的系统中，得票率最高的代表也只有17%(https://bitcointalk.org/index.php?topic=916696.330;imode)的选票，虽然在Lisk中有30%(https://explorer.lisk.io/delegateMonitor)，我们之后会讨论这个系统，它也有问题。
+EIP 186 Carbonvote有大约270万的ETH投票。DAO提案投票也好不到哪里去，而投票率却从未超过10%DAO提案投票[并没有变得更好](http://themerkle.com/the-dao-undergoes-low-voting-turnout/)。 以太坊以外的投票也没好多少；即使在Bitshares，一个围绕投票设计出来的专属核心社会契约的系统中，得票率最高的代表也只有[17% of the vote](https://bitcointalk.org/index.php?topic=916696.330;imode) 的选票，虽然在Lisk中有[up to 30%](https://explorer.lisk.io/delegateMonitor)，我们之后会讨论这个系统，它也有问题。
 
 Low voter participation means two things. First, the vote has a harder time achieving a perception of legitimacy, because it only reflects the views of a small percentage of people. Second, an attacker with only a small percentage of all coins can sway the vote. These problems exist regardless of whether the vote is tightly coupled or loosely coupled.
 
@@ -216,7 +216,7 @@ It’s worth noting that this section **is not** a prediction that all tightly c
 
 Another important objection to voting is that coin holders are only one class of user, and may have interests that collide with those of other users. In the case of pure cryptocurrencies like Bitcoin, store-of-value use (“[hodling](https://bitcointalk.org/index.php?topic=375643.0)”) and medium-of-exchange use (“buying coffees”) are naturally in conflict, as the store-of-value prizes security much more than the medium-of-exchange use case, which more strongly values usability. With Ethereum, the conflict is worse, as there are many people who use Ethereum for reasons that have nothing to do with ether (see: cryptokitties), or even value-bearing digital assets in general (see: ENS).
 
-对投票的另一个重要反对意见是，硬币持有者只是一类用户，并且可能具有与其他用户有相冲突的兴趣。 在像比特币这样的纯加密货币的情况下，使用存储价值（https://bitcointalk.org/index.php?topic=375643.0)和交易所使用（“购买咖啡”） 自然会发生冲突，因为价值存储比安全交易用例更有价值，后者更强烈地重视可用性。 对于以太坊，冲突更加严重，因为有许多人使用以太坊的原因与以太无关（参见：cryptokitties），甚至是一般的有价值数字资产都是这样（参见：ENS）。
+对投票的另一个重要反对意见是，硬币持有者只是一类用户，并且可能具有与其他用户有相冲突的兴趣。 在像比特币这样的纯加密货币的情况下，使用存储价值hodling（https://bitcointalk.org/index.php?topic=375643.0) 和交易所使用（“购买咖啡”） 自然会发生冲突，因为价值存储比安全交易用例更有价值，后者更强烈地重视可用性。 对于以太坊，冲突更加严重，因为有许多人使用以太坊的原因与以太无关（参见：cryptokitties），甚至是一般的有价值数字资产都是这样（参见：ENS）。
 
 Additionally, even if coin holders _are_ the only relevant class of user (one might imagine this to be the case in a cryptocurrency where there is an established social contract that its purpose is to be the next digital gold, and nothing else), there is still the challenge that a coin holder vote gives a much greater voice to wealthy coin holders than to everyone else, opening the door for centralization of holdings to lead to unencumbered centralization of decision making. Or, in other words...
 
