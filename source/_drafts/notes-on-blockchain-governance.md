@@ -284,19 +284,35 @@ Basically any meaningful norm is actually quite hard to express in its entirety;
 
 We _want_ to be able to say that a protocol change that violates any of these guarantees should be viewed as illegitimate - there should be a coordination institution that waves a red flag - even if they get approved by a vote. We also want to be able to say that a protocol change that follows the letter of a norm, but blatantly violates its spirit, the protocol change should _still_ be viewed as illegitimate. And having norms exist on layer 2 - in the minds of humans in the community, rather than in the code of the protocol - best achieves that goal.
 
-我们希望能够说违反任何这些保证的协议变更应被视为非法 - 应该有一个标志着红旗的协调机构 - 即使它们得到了投票批准。 我们也希望能够说协议改变遵循规范的字母，但公然违反其精神，协议变更应该被视为非法的。 并且在第2层存在规范 - 在社区中的人类头脑中，而不是在协议的代码中 - 最好地实现该目标。
+我们希望能够将任何违反这些保证的协议变更视为非法 - 应该有一个严格的协调机构 - 即使它们得到了投票批准。 我们也希望能够让协议改变遵循规范的每一条内容，但公然违反其精神的协议变更应该被视为非法的。 并且在第2层存在规范 - 在社区中的人类头脑中，而不是在协议的代码中 - 最好地实现该目标。
 
 ### Toward A Balance
 
+### 走向平衡
+
 However, I am also not willing to go the other way and say that coin voting, or other explicit on-chain voting-like schemes, have no place in governance whatsoever. The leading alternative seems to be core developer consensus, however the failure mode of a system being controlled by “ivory tower intellectuals” who care more about abstract philosophies and solutions that sound technically impressive over and above real day-to-day concerns like user experience and transaction fees is, in my view, also a real threat to be taken seriously.
+
+但是，我也不愿意反过来说硬币投票或其他明确的类似投票的计划在治理方面没有任何地位。 领先的替代方案是核心开发者的共识，然而系统的失败模式由“象牙塔知识分子”控制，他们更关注抽象哲学和解决方案，这些理念在技术上令人印象深刻，超越了用户体验等日常实际问题。 在我看来，交易费也是一个需要认真对待的真正威胁。
 
 So how do we solve this conundrum? Well, first, we can heed [the words of slatestarcodex](http://slatestarcodex.com/2017/11/21/contra-robinson-on-public-food/) in the context of traditional politics:
 
+那么我们如何解决这个难题呢？ 那么，首先，我们可以在传统政治背景下注意[slatestarcodex的话]（http://slatestarcodex.com/2017/11/21/contra-robinson-on-public-food/）：
+
 > The rookie mistake is: you see that some system is partly Moloch \[ie. captured by misaligned special interests\], so you say “Okay, we’ll fix that by putting it under the control of this other system. And we’ll control this other system by writing ‘DO NOT BECOME MOLOCH’ on it in bright red marker.”  
+
+> 新手的错误是：你看到一些系统是部分的Moloch \[即。 被错位的特殊利益所捕获\]，所以你说“好的，我们将把它置于另一个系统的控制之下来修复它。 我们将通过用鲜红色标记写上‘DO NOT BECOME MOLOCH’来控制另一个系统。”
+
 > (“I see capitalism sometimes gets misaligned. Let’s fix it by putting it under control of the government. We’ll control the government by having only virtuous people in high offices.”)  
+
+> （“我认为资本主义有时会失调。 让我们把它置于政府的控制之下来解决它。 我们会找即使是在高级职位上也很善良的人来控制治理环节。”）
+
 > I’m not going to claim there’s a great alternative, but the occasionally-adequate alternative is the neoliberal one – find a couple of elegant systems that all optimize along different criteria approximately aligned with human happiness, pit them off against each other in a structure of checks and balances, hope they screw up in different places like in that swiss cheese model, keep enough individual free choice around that people can exit any system that gets too terrible, and let cultural evolution do the rest.
 
+> 我不会说存在一个很好的选择，但偶尔适当的选择是新自由主义 - 找到一些能使所有系统都根据不同的标准进行优化的系统，大致与人类的幸福保持一致，在相互制衡的结构中将它们相互对立，希望他们像在瑞士奶酪模型中一样在不同的地方尝试，保持足够的个人自由选择，人们可以退出任何他们觉得很糟糕的系统，让文化进化完成剩下的工作。
+
 In blockchain governance, it seems like this is the only way forward as well. The approach for blockchain governance that I advocate is “multifactorial consensus”, where different coordination flags and different mechanisms and groups are polled, and the ultimate decision depends on the collective result of all of these mechanisms together. These coordination flags may include:
+
+在区块链治理中，似乎这也是唯一的前进方式。 我提倡的区块链治理方法是“多因素共识”，其中不同的协调标志和不同的机制和组被轮询，最终的决定取决于所有这些机制的集体结果。 这些协调标志可能包括：
 
 *   The roadmap (ie. the set of ideas broadcasted earlier on in the project’s history about the direction the project would be going)
 *   Consensus among the dominant core development teams
@@ -304,7 +320,15 @@ In blockchain governance, it seems like this is the only way forward as well. Th
 *   User votes, through some kind of sybil-resistant polling system
 *   Established norms (eg. non-interference with applications, the 21 million coin limit)
 
+*   路线图（即项目历史中早先广播的关于项目进展方向的一组想法）
+*   主导核心开发团队之间的共识
+*   持币者投票
+*   用户通过某种抗sybil投票系统投票
+*   已建立的规范（例如，不干扰应用程序，2100万硬币限制）
+
 I would argue that it is very useful for coin voting to be one of several coordination institutions deciding whether or not a given change gets implemented. It is an imperfect and unrepresentative signal, but it is a _Sybil-resistant_ one - if you see 10 million ETH voting for a given proposal, you _cannot_ dismiss that by simply saying “oh, that’s just hired Russian trolls with fake social media accounts”. It is also a signal that is sufficiently disjoint from the core development team that if needed it can serve as a check on it. However, as described above, there are very good reasons why it should not be the _only_ coordination institution.
+
+我认为，硬币投票作为某个协调机构决定某一特定变更是否得到实施非常有用。 这是一个不完美且没有代表性的现象，但它是抗Sybil的 - 如果你看到一个对给定提案的1000万ETH投票，你不能只是打发的说“哦，那只是雇用俄罗斯大户与虚假的社交媒体账户”。 它也是一个与核心开发团队完全脱节的信号，如果需要它可以作为对它的检查。 但是，如上所述，有很好的理由说明为什么它不应该只是协调机构。
 
 And underpinnning it all is the key difference from traditional systems that makes blockchains interesting: the “layer 1” that underpins the whole system is the requirement for individual users to assent to any protocol changes, and their freedom, and credible threat, to “fork off” if someone attempts to force changes on them that they consider hostile (see also: [http://vitalik.ca/general/2017/05/08/coordination_problems.html](http://vitalik.ca/general/2017/05/08/coordination_problems.html)).
 
