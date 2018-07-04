@@ -164,7 +164,7 @@ Low voter participation means two things. First, the vote has a harder time achi
 
 Aside from “the big hack” that received the bulk of the media attention, the DAO also had a number of much smaller game-theoretic vulnerabilities; [this article from HackingDistributed](http://hackingdistributed.com/2016/05/27/dao-call-for-moratorium/) does a good job of summarizing them. But this is only the tip of the iceberg. Even if all of the finer details of a voting mechanism are implemented correctly, voting mechanisms in general have a large flaw: in any vote, the probability that any given voter will have an impact on the result is tiny, and so the personal incentive that each voter has to vote correctly is almost insignificant. And if each person’s size of the stake is small, their incentive to vote correctly is insignificant _squared_. Hence, a relatively small bribe spread out across the participants may suffice to sway their decision, possibly in a way that they collectively might quite disapprove of.
 
-除了受到大部分媒体关注的“大黑客”之外，DAO还有一些小得多的博弈论漏洞; 来自HackingDistributed的[this article from HackingDistributed](http://hackingdistributed.com/2016/05/27/dao-call-for-moratorium/)对他们进行了很好的总结。但这只是冰山一角。即使投票机制的所有细节都得到了正确实施，投票机制通常也存在很大缺陷：在任何投票中，任何特定投票人对结果产生影响的可能性都很小，因此， 每个选民必须正确投票几乎是微不足道的。 如果每个人的股份规模都很小，他们正确投票的动机是微不足道的。 因此，在参与者身上散布的相对较小的贿赂可能足以影响他们的决定，可能以他们可能完全不同意的方式行事。
+除了受到大部分媒体关注的“大黑客”之外，DAO还有一些小得多的博弈论漏洞; 来自HackingDistributed的[这篇文章](http://hackingdistributed.com/2016/05/27/dao-call-for-moratorium/)对他们进行了很好的总结。但这只是冰山一角。即使投票机制的所有细节都得到了正确实施，投票机制通常也存在很大缺陷：在任何投票中，任何特定投票人对结果产生影响的可能性都很小，因此， 每个选民必须正确投票几乎是微不足道的。 如果每个人的股份规模都很小，他们正确投票的动机是微不足道的。 因此，在参与者身上散布的相对较小的贿赂可能足以影响他们的决定，可能以他们可能完全不同意的方式行事。
 
 Now you might say, people are not evil selfish profit-maximizers that will accept a $0.5 bribe to vote to give twenty million dollars to Josh arza just because the above calculation says their individual chance of affecting anything is tiny; rather, they would altruistically refuse to do something that evil. There are two responses to this criticism.
 
@@ -216,7 +216,7 @@ It’s worth noting that this section **is not** a prediction that all tightly c
 
 Another important objection to voting is that coin holders are only one class of user, and may have interests that collide with those of other users. In the case of pure cryptocurrencies like Bitcoin, store-of-value use (“[hodling](https://bitcointalk.org/index.php?topic=375643.0)”) and medium-of-exchange use (“buying coffees”) are naturally in conflict, as the store-of-value prizes security much more than the medium-of-exchange use case, which more strongly values usability. With Ethereum, the conflict is worse, as there are many people who use Ethereum for reasons that have nothing to do with ether (see: cryptokitties), or even value-bearing digital assets in general (see: ENS).
 
-对投票的另一个重要反对意见是，硬币持有者只是一类用户，并且可能具有与其他用户有相冲突的兴趣。 在像比特币这样的纯加密货币的情况下，使用存储价值hodling（https://bitcointalk.org/index.php?topic=375643.0) 和交易所使用（“购买咖啡”） 自然会发生冲突，因为价值存储比安全交易用例更有价值，后者更强烈地重视可用性。 对于以太坊，冲突更加严重，因为有许多人使用以太坊的原因与以太无关（参见：cryptokitties），甚至是一般的有价值数字资产都是这样（参见：ENS）。
+对投票的另一个重要反对意见是，硬币持有者只是一类用户，并且可能具有与其他用户有相冲突的兴趣。 在像比特币这样的纯加密货币的情况下，使用存储价值[hodling]（https://bitcointalk.org/index.php?topic=375643.0) 和交易所使用（“购买咖啡”） 自然会发生冲突，因为价值存储比安全交易用例更有价值，后者更强烈地重视可用性。 对于以太坊，冲突更加严重，因为有许多人使用以太坊的原因与以太无关（参见：cryptokitties），甚至是一般的有价值数字资产都是这样（参见：ENS）。
 
 Additionally, even if coin holders _are_ the only relevant class of user (one might imagine this to be the case in a cryptocurrency where there is an established social contract that its purpose is to be the next digital gold, and nothing else), there is still the challenge that a coin holder vote gives a much greater voice to wealthy coin holders than to everyone else, opening the door for centralization of holdings to lead to unencumbered centralization of decision making. Or, in other words...
 
@@ -232,9 +232,15 @@ And if you want to see a review of a project that seems to combine all of these 
 
 This criticism applies to both tightly coupled and loosely coupled voting equally; however, loosely coupled voting is more amenable to compromises that mitigate its unrepresentativeness, and we will discuss this more later.
 
+这种批评同样适用于紧密耦合和松散耦合的投票; 然而，松散耦合的投票更容易受到妥协的影响，从而减轻其无代表性，我们将在稍后讨论。
+
 ### Centralization
 
+### 集权
+
 Let’s look at the existing live experiment that we have in tightly coupled voting on Ethereum, the gas limit. Here’s the gas limit evolution over the past two years:
+
+让我们看一下现有的实验，我们对以太坊（gas限制）进行紧密耦合投票。 这是过去两年的gas限制演变：
 
 ![](http://vitalik.ca/files/governance3.png)
 
@@ -242,25 +248,43 @@ Let’s look at the existing live experiment that we have in tightly coupled vot
 
 You might notice that the general feel of the curve is a bit like another chart that may be quite familiar to you:
 
+您可能会注意到曲线的整体感觉有点像您可能非常熟悉的另一个图表：
+
 ![](https://philoofalexandria.files.wordpress.com/2011/10/top_marginal_income_tax_rate_1913-2003.jpg)
 
   
 
 Basically, they both look like magic numbers that are created and repeatedly renegotiated by a fairly centralized group of guys sitting together in a room. What’s happening in the first case? Miners are generally following the direction favored by the community, which is itself gauged via social consensus aids similar to those that drive hard forks (core developer support, Reddit upvotes, etc; in Ethereum, the gas limit has never gotten controversial enough to require anything as serious as a coin vote).
 
+基本上，它们看起来都像魔术数字一样，由一群坐在一个房间里的相当集中的人组成，并反复重新协商。 第一种情况发生了什么？ 矿工们一般都遵循社区所青睐的方向，这本身就是通过社会共识辅助来衡量的，类似于那些推动硬叉的（核心开发者支持的，Reddit upvotes等等;在以太坊中，gas限制从来没有引起足够的争议来需求任何像投票一样严肃的东西）。
+
 Hence, it is not at all clear that voting will be able to deliver _results_ that are actually decentralized, if voters are not technically knowledgeable and simply defer to a single dominant tribe of experts. This criticism once again applies to tightly coupled and loosely coupled voting equally.
+
+因此，如果选民在技术上不具备知识并且只是顺从一个主要的专家部门，那么投票是否能够传递真正去中心化的结果将不是很清楚的。 这种批评再次同样适用于紧密耦合和松散耦合的投票。
 
 _Update: since writing this, it seems like Ethereum miners managed to up the gas limit from 6.7 million to 8 million all without even discussing it with the core developers or the Ethereum Foundation. So there is hope; but it takes a lot of hard community building and other grueling non-technical work to get to that point._
 
+_Update：自写这篇文章以来，以太坊矿工们似乎都没有跟核心开发员或者以太基金商量就成功的将gas限制从670万增加到800万。所以有希望; 但要达到这一点需要很多艰苦的社区建设和其他艰苦的非技术性工作._
+
 ### Digital Constitutions
+
+### 数字宪法
 
 One approach that has been suggested to mitigate the risk of runaway bad governance algorithms is “digital constitutions” that mathematically specify desired properties that the protocol should have, and require any new code changes to come with a computer-verifiable proof that they satisfy these properties. This seems like a good idea at first, but this too should, in my opinion, be viewed skeptically.
 
+一种被认为可以降低不良治理算法失控风险的方法是“数字宪法”，它在数学上指定了协议应具有的所需属性，并要求任何新的代码更改都带有计算机可验证的证据，证明它们满足这些属性。 起初这似乎是一个好主意，但在我看来，这也应该持怀疑态度。
+
 In general, the idea of having norms about protocol properties, and having these norms serve the function of one of the coordination flags, is a very good one. This allows us to enshrine core properties of a protocol that we consider to be very important and valuable, and make them more difficult to change. However, this is exactly the sort of thing that should be enforced in loosely coupled (ie. layer two), rather than tightly coupled (layer one) form.
+
+一般而言，具有关于协议属性的规范并且使这些规范服务于协调标志之一的功能的想法是非常好的。 这使我们能够提供我们认为非常重要和有价值的协议的核心属性，并使它们更难以改变。 然而，这正是应该在松散耦合（即第二层）而不是紧密耦合（第一层）形式中强制执行的事情。
 
 Basically any meaningful norm is actually quite hard to express in its entirety; this is part of the [complexity of value](https://wiki.lesswrong.com/wiki/Complexity_of_value) problem. This is true even for something as seemingly unambiguous as the 21 million coin limit. Sure, one can add a line of code saying `assert total_supply <= 21000000`, and put a comment around it saying “do not remove at all costs”, but there are plenty of roundabout ways of doing the same thing. For example, one could imagine a soft fork that adds a mandatory transaction fee this is proportional to coin value * time since the coins were last sent, and this is equivalent to demurrage, which is equivalent to deflation. One could also implement another currency, called Bjtcoin, with 21 million _new_ units, and add a feature where if a bitcoin transaction is sent the miner can intercept it and claim the bitcoin, instead giving the recipient bjtcoin; this would rapidly force bitcoins and bjtcoins to be fungible with each other, increasing the “total supply” to 42 million without ever tripping up that line of code. “Softer” norms like not interfering with application state are even harder to enforce.
 
+基本上任何有意义的规范实际上都难以完整表达;这是[价值复杂性](https://wiki.lesswrong.com/wiki/Complexity_of_value)问题的一部分。甚至对于像2100万硬币限制那样看似毫不含糊的东西也是如此。当然，人们可以添加一行代码`assert total_supply <= 21000000`，并在其周围发表评论说“不要不惜一切代价”，但是有很多迂回的方法可以做同样的事情。例如，人们可以设想一个软分叉，它增加了一个强制性的交易费用，这与硬币最后一次发送时的硬币价值成正比，这相当于滞期费，相当于通货紧缩。人们还可以实施另一种货币，称为Bjtcoin，拥有2100万个，并添加一项功能，如果发送比特币交易，矿工可以拦截它并索取比特币，而不是给收件人bjtcoin;这将迅速迫使比特币和bjtcoins相互可互换，将“总供应量”增加到4200万，而不会妨碍这一行代码。不干涉应用程序状态的“更软”规范甚至更难执行。
+
 We _want_ to be able to say that a protocol change that violates any of these guarantees should be viewed as illegitimate - there should be a coordination institution that waves a red flag - even if they get approved by a vote. We also want to be able to say that a protocol change that follows the letter of a norm, but blatantly violates its spirit, the protocol change should _still_ be viewed as illegitimate. And having norms exist on layer 2 - in the minds of humans in the community, rather than in the code of the protocol - best achieves that goal.
+
+我们希望能够说违反任何这些保证的协议变更应被视为非法 - 应该有一个标志着红旗的协调机构 - 即使它们得到了投票批准。 我们也希望能够说协议改变遵循规范的字母，但公然违反其精神，协议变更应该被视为非法的。 并且在第2层存在规范 - 在社区中的人类头脑中，而不是在协议的代码中 - 最好地实现该目标。
 
 ### Toward A Balance
 
