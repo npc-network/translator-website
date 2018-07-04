@@ -28,3 +28,8 @@ A good way to examine whether a new technology can be a truly useful addition to
 
 研究一项新技术是否能够成为现有货币格局的真正有益补充的一个好方法，是先退后一步去回顾货币在经济中的基本作用，以及关注过去所展现给我们的，关于创造新的私人货币的失败尝试。然后我们再进行发问，基于这种新技术的货币是否能够以任何方式改善当前的货币格局。[2]
 
+A brief history of money
+货币的历史
+
+Money plays a crucial role in facilitating economic exchange. Before its advent millennia ago, goods were primarily exchanged for the promise to return the favour in the future (ie trading of IOUs).3 However, as societies grew larger and economic activity expanded, it became harder to keep a record of ever more complex IOUs, and default and settlement risks became concerns. Money and the institutions issuing it came into existence to address this growing complexity and the associated difficulty in maintaining trust. 
+
