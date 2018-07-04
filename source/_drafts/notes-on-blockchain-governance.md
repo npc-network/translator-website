@@ -204,9 +204,11 @@ And as “Exhibit B” some voter bribes being paid out [in Ark](https://bitcoin
 
 Here, note that there is a key difference between tightly coupled and loosely coupled votes. In a loosely coupled vote, direct or indirect vote bribing is also possible, but if the community agrees that some given proposal or set of votes constitutes a game-theoretic attack, they can simply socially agree to ignore it. And in fact this has kind of already happened - the Carbonvote contains a blacklist of addresses corresponding to known exchange addresses, and votes from these addresses are not counted. In a tightly coupled vote, there is no way to create such a blacklist at protocol level, because agreeing who is part of the blacklist is _itself_ a blockchain governance decision. But since the blacklist is part of a community-created voting tool that only indirectly influences protocol changes, voting tools that contain bad blacklists can simply be rejected by the community.
 
-在这里，请注意紧密耦合和松散耦合的投票之间存在关键区别。 在一个松散耦合的投票中，直接或间接的投票贿赂也是可能的，但如果社区同意某些给定的提案或一组投票构成游戏理论攻击，他们可以简单地在社会上同意忽略它。 事实上，这种情况已经发生 - Carbonvote包含与已知交换地址相对应的黑名单地址，并且不计算来自这些地址的投票。 在紧密耦合的投票中，没有办法在协议级别创建这样的黑名单，因为同意谁是黑名单的一部分是_itself_区块链治理决策。 但由于黑名单是社区创建的投票工具的一部分，只会间接影响协议变更，因此社区可能会拒绝包含不良黑名单的投票工具。
+在这里，请注意紧密耦合和松散耦合的投票之间存在关键区别。 在一个松散耦合的投票中，直接或间接的投票贿赂也是可能的，但如果社区同意某些给定的提案或一组投票构成博弈论攻击，他们可以轻松地在全社会范围内同意忽略它。 事实上，这种情况已经发生 - Carbonvote包含与已知交换地址相对应的黑名单地址，并且不计算来自这些地址的投票。 在紧密耦合的投票中，没有办法在协议级别创建这样的黑名单，因为同意谁是黑名单的一部分本身就是区块链治理决策。 但由于黑名单是社区创建的投票工具的一部分，只会间接影响协议变更，因此社区可能会拒绝包含不良黑名单的投票工具。
 
 It’s worth noting that this section **is not** a prediction that all tightly coupled voting systems will quickly succumb to bribe attacks. It’s entirely possible that many will survive for one simple reason: all of these projects have founders or foundations with large premines, and these act as large centralized actors that are interested in their platforms’ success that are not vulnerable to bribes, and hold enough coins to outweigh most bribe attacks. However, this kind of centralized trust model, while arguably useful in some contexts in a project’s early stages, is clearly one that is not sustainable in the long term.
+
+值得注意的是，这部分并不是预测所有紧密耦合的投票系统都会迅速屈服于贿赂攻击。 完全有可能许多人会幸存下来，原因很简单：所有这些项目都有创始人或基金会的大型预设，这些项目充当了大型的集中行动者，他们对平台的成功感兴趣，不易受贿，并持有足够的硬币超过大多数贿赂攻击。 然而，这种集中式信任模型虽然在项目早期阶段的某些情况下可以说是有用的，但显然是长期不可持续的模型。
 
 ### Non-Representativeness
 
