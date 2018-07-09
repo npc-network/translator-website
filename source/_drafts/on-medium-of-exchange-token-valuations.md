@@ -5,12 +5,12 @@ tags:
 
 原文地址：https://vitalik.ca/general/2017/10/17/moe.html
 
-论基于媒介交换的token价值
+论作为交换媒介的token价值
 
 
 One kind of token model that has become popular among many recent token sale projects is the “network medium of exchange token”. The general pitch for this kind of token goes as follows. We, the developers, build a network, and this network allows you to do new cool stuff. This network is a sharing-economy-style system: it consists purely of a set of sellers, that provide resources within some protocol, and buyers that purchase the services, where both buyers and sellers come from the community. But the purchase and sale of things within this network must be done with the new token that we’re selling, and this is why the token will have value.
 
-近期，基于网络媒介交换的token在项目代币售卖中变得越来越流行。该token售卖的大体模式如下：开发者开发出了一个网络系统，提供用户在该系统上进行创作。该网络是一个共享经济风格的系统：它由一组通过某种协议提供资源的卖家和购买服务的买家组成，其中买家和卖家都来自社区。在该网络中的买卖必须通过我们（开发者）售卖的token进行, 这是该种类型token有价值的原因。
+近期，作为网络交换媒介的token在项目代币售卖中变得越来越流行。该token售卖的大体模式如下：开发者开发出了一个网络系统，允许用户在该系统上做新的很酷的事情。该网络是一个共享经济风格的系统：它由一组通过某种协议提供资源的卖家和购买服务的买家组成，其中买家和卖家都来自社区。在该网络中的买卖必须通过我们（开发者）售卖的token进行, 这是该种类型token有价值的原因。
 
 
 
@@ -20,18 +20,18 @@ If it were the developers themselves that were acting as the seller, then this w
 
 We can see this in more detail by describing what is going on in a simple economic model. Suppose that N people value a product that a developer wants to release at $x, and believe the developer will give them the product. The developer does a sale, and raises N units for $w < x each, thus raising a total revenue of $N * w. The developer builds the product, and gives it to each of the buyers. At the end of the day, the buyers are happy, and the developer is happy. Nobody feels like they made an avoidable mistake in participating, and everyone’s expectations have been met. This kind of economic model is clearly stable.
 
-通过一个简单的经济模型我们能看出更多的细节。假设有N人对一款产品进行估值，并认为开发者将会以x美元的价格对该产品标价。接着开发者开始了发售，筹集到了N笔资金，而每笔金额小于$x（假设为$w），总筹集到的金额为$N*w。开发者开发了产品并把产品提供给每一个购买者。最终，开发者和购买者愉快地完成了交易。没人感觉到自身在参与过程中犯了本可以避免的错误，因为每一方的预期都得到满足，这种类型的经济模型显然是稳定的。
+通过一个简单的经济模型我们能看出更多的细节。假设有N人对一款产品进行估值，并认为开发者将会以x美元的价格对该产品标价。接着开发者开始了发售，筹集到了N笔资金，而每笔金额小于$x（假设为$w），总筹集到的金额为$N * w。开发者开发了产品并把产品提供给每一个购买者。最终，开发者和购买者愉快地完成了交易。没人感觉到自身在参与过程中犯了本可以避免的错误，因为每一方的预期都得到满足，这种类型的经济模型显然是稳定的。
 
 
 Now, let’s look at the story with a “medium of exchange” token. N people value a product that will exist in a decentralized network at $x; the product will be sold at a price of $w < x. They each buy $w of tokens in the sale. The developer builds the network. Some sellers come in, and offer the product inside the network for $w. The buyers use their tokens to purchase this product, spending $w of tokens and getting $x of value. The sellers spend $v < w of resources and effort producing this product, and they now have $w worth of tokens.
 
-现在，让我们了解下作为”交易媒介“token的故事。N人对去中心化网络中存在的产品的估值是$x;该产品将以 $w < $x的价格进行售卖。这N人以$w的价格购买token 。 开发者建立网络， 一些卖家加入并且在该网络中以$w的价格提供产品。买家使用token去购买卖家提供的产品，花费价值$w的token获取估值$x的产品， 卖家花费价值$v < w的资源成本生产产品并且得到价值$w的token作为回报。
+现在，让我们了解下作为”交换媒介“token的故事。N人对去中心化网络中存在的产品的估值是$x;该产品将以 $w < $x的价格进行售卖。这N人以$w的价格购买token 。 开发者建立网络， 一些卖家加入并且在该网络中以$w的价格提供产品。买家使用token去购买卖家提供的产品，花费价值$w的token获取估值$x的产品， 卖家花费价值$v < w的资源成本生产产品并且得到价值$w的token作为回报。
 
 
 
 Notice that here, the cycle is not complete, and in fact it never will be; there needs to be an ongoing stream of buyers and sellers for the token to continue having its value. The stream does not strictly speaking have to be endless; if in every round there is a chance of at least v / w that there will be a next round, then the model still works, as even though someone will eventually be cheated, the risk of any individual participant becoming that person is lower than the benefit that they get from participating. It’s also totally possible that the token would depreciate in each round, with its value multiplying by some factor f where v / w < f < 1, until it eventually reaches a price of zero, and it would still be on net in everyone’s interest to participate. Hence, the model is theoretically feasible, but you can see how this model is more complex and more tenuous than the simple “developers as seller” model.
 
-我们注意到，这个过程并不是完整闭环的，事实上，它永远不会成为完整的闭环; 它需要持续不断地有买家和卖家流加入以延续该token的价值。该“流”并不一定要严格意义上的无界（永不停止）; 如果在每一轮存在至少v / w的几率进入下一轮，那么这种模型依然能运作, 即使某些人最终会被骗，个体参与的风险也小于参与带来的可能利益， token在每一轮中完全可能贬值，即每一轮的价格都在上一轮的基础上乘以一个f因子（v / w < f < 1）, 直到价格最终归零， token在网络存在依然满足参与者的利益。 因此, 这套模型理论上是可行的, 但是您可以发现这种模型相比于简单的“开发者作为卖家”模型更加复杂和脆弱。
+我们注意到，这个过程并不是完整闭环的，事实上，它永远不会成为完整的闭环; 它需要持续不断地有买家和卖家流加入以延续该token的价值。该“流”并不一定要严格意义上的无界（永不停止）; 如果在每一轮存在至少v / w 的几率进入下一轮，那么这种模型依然能运作, 即使某些人最终会被骗，个体参与的风险也小于参与带来的可能利益， token在每一轮中完全可能贬值，即每一轮的价格都在上一轮的基础上乘以一个f因子（v / w < f < 1）, 直到价格最终归零， token在网络存在依然满足参与者的利益。 因此, 这套模型理论上是可行的, 但是您可以发现这种模型相比于简单的“开发者作为卖家”模型更加复杂和脆弱。
 
 Traditional macroeconomics has a simple equation to try to value a medium of exchange:
 
@@ -70,6 +70,7 @@ MC = TH
 
 The left term is quite simply the market cap. The right term is the economic value transacted per day, multiplied by the amount of time that a user holds a coin before using it to transact.
 
+为了更简明地分析，我们可以改写两个变量：
 我们将 1/V 称为 “H”，即用户在使用硬币进行交易之前持有硬币的时间
 我们用 1/P 表示货币价格 “C”（认为C = 成本）
 现在，我们有：
@@ -120,13 +121,13 @@ What this all serves to show is that relying purely on the medium-of-exchange ar
 
 So what is the alternative? One simple alternative is the etherdelta approach, where an application simply collects fees in the interface. One common criticism is: but can’t someone fork the interface to take out the fees? A counter-retort is: someone can also fork the interface to replace your protocol token with ETH, BTC, DOGE or whatever else users would prefer to use. One can make a more sophisticated argument that this is hard because the “pirate” version would have to compete with the “official” version for network effect, but one can just as easily create an official fee-paying client that refuses to interact with non-fee-paying clients as well; this kind of network effect-based enforcement is similar to how value-added-taxes are typically enforced in Europe and other places. Official-client buyers would not interact with non-official-client sellers, and official-client sellers would not interact with non-official-client buyers, so a large group of users would need to switch to the “pirate” client at the same time to successfully dodge fees. This is not perfectly robust, but it is certainly as good as the approach of creating a new protocol token.
 
-那么有什么其他的方案呢？一个简单方案的是etherdelta的方式，应用程序只是简单地在接口中收取费用。一个普遍的争论是难道不能有人通过修改接口来去掉费用吗？其中一个反驳的观点是有人也可以通过修改接口将协议token替换为ETH，BTC，DOGE或其他任何用户喜欢使用的token。另一个观点认为这很难做到，因为“盗版”版本必须与“官方”版本竞争网络效应，但我们又可以轻松创建一个拒绝与非付费客户端交互的官方付费客户端;这种基于网络效应的实施方式类似于欧洲和其他地方通常执行增值税的方式。官方客户端的买家不会与非官方客户端的卖家交互，而官方客户端的卖家不会与非官方客户端的买家交互，因此大量用户需要切换到“盗版”客户端来减少费用。这并不完全可靠，但它确实与创建一种新的协议token的方式一样好。
+那么有什么其他的方案呢？一个简单方案的是etherdelta（以德）的方式，应用程序只是简单地在接口中收取费用。一个普遍的争论是难道不能有人通过复制接口来取走费用吗？其中一个反驳的观点是有人也可以通过复制接口将协议token替换为ETH，BTC，DOGE或其他任何用户喜欢使用的token。另一个观点认为这很难做到，因为“盗版”版本必须与“官方”版本竞争网络效应，我们又可以轻松创建一个拒绝与非付费客户端交互的官方付费客户端;这种基于网络效应的实施方式类似于欧洲和其他地方通常执行增值税的方式。官方客户端的买家不会与非官方客户端的卖家交互，而官方客户端的卖家不会与非官方客户端的买家交互，因此大量用户需要切换到“盗版”客户端来减少费用。这并不完全可靠，但它确实与创建一种新的协议token的方式一样好。
 
 If developers want to front-load revenue to fund initial development, then they can sell a token, with the property that all fees paid are used to buy back some of the token and burn it; this would make the token backed by the future expected value of upcoming fees spent inside the system. One can transform this design into a more direct utility token by requiring users to use the utility token to pay fees, and having the interface use an exchange to automatically purchase tokens if the user does not have tokens already.
 
-如果开发者想要将收入预先用于初期开发，那么他们可以出售token，并且所有支付的费用都用于回购一些令牌并将其销毁;这将使得token的价值会被预计将来在系统内消费的费用所支撑。通过要求用户使用功能性的token来支付费用，并且如果用户没有令牌的话有一个接口通过交易所自动购买token，则可以将该方案转化为一个更直接的功能性token。
+如果开发者想要将收入预先用于初期开发，那么他们可以出售token，并且所有支付的费用都用于回购一些令牌并将其销毁;这将使得token的价值会被预计将来在系统内消费的费用所支撑。通过要求用户使用功能性的token来支付费用、使用户没有token的时候提供接口通过交易所自动购买token，可以将该方案转化为一个更直接的功能性token。
 
 The important thing is that for the token to have a stable value, it is highly beneficial for the token supply to have sinks - places where tokens actually disappear and so the total token quantity decreases over time. This way, there is a more transparent and explicit fee paid by users, instead of the highly variable and difficult to calculate “de-facto fee”, and there is also a more transparent and explicit way to figure out what the value of protocol tokens should be.
 
-一件重要的事情就是为了让token拥有稳定的价值，使token的供给有一个“黑洞”(用来让token永久消失以致随着时间的增长token的数量是递减的)会非常有益。通过这种方式，我们就会得到一种更透明和更明确的被用户支付的费用，而不是高度变化并且很难计算的"实际费用", 并且会得到一种计算协议token价值的更透明和更明确的方法。
+一件重要的事是：为了让token拥有一个稳定的价值，使token的供给有一个“黑洞”(用来让token永久消失以致随着时间的增长token的数量是递减的)将会是非常有益的。通过这种方式，我们可以得到一种更透明和更明确的被用户支付的费用，而不是高度变化并且很难计算的"实际费用", 从而会得到一种更透明、更明确的token价值计算方法。
 
