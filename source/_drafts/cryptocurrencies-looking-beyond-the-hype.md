@@ -31,5 +31,6 @@ A good way to examine whether a new technology can be a truly useful addition to
 A brief history of money
 货币的历史
 
-Money plays a crucial role in facilitating economic exchange. Before its advent millennia ago, goods were primarily exchanged for the promise to return the favour in the future (ie trading of IOUs).3 However, as societies grew larger and economic activity expanded, it became harder to keep a record of ever more complex IOUs, and default and settlement risks became concerns. Money and the institutions issuing it came into existence to address this growing complexity and the associated difficulty in maintaining trust. 
+Money plays a crucial role in facilitating economic exchange. Before its advent millennia ago, goods were primarily exchanged for the promise to return the favour in the future (ie trading of IOUs).[3] However, as societies grew larger and economic activity expanded, it became harder to keep a record of ever more complex IOUs, and default and settlement risks became concerns. Money and the institutions issuing it came into existence to address this growing complexity and the associated difficulty in maintaining trust. 
 
+货币在促进经济流通交换方面起着至关重要的作用。在数千年前货币还未出现之时，货物主要通过一定的未来回报利益凭证（即交易欠条）来进行交易。[3] 然而，随着社会规模和经济活动的扩大，记录大范围错综复杂的欠条记录变得十分困难，同时也增加了对违约和结算风险的担忧。货币和发行它的机构应运而生，以应对日益增长的交易复杂性和解决相对困难的信任问题。
