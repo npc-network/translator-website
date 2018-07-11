@@ -34,3 +34,12 @@ A brief history of money
 Money plays a crucial role in facilitating economic exchange. Before its advent millennia ago, goods were primarily exchanged for the promise to return the favour in the future (ie trading of IOUs).[3] However, as societies grew larger and economic activity expanded, it became harder to keep a record of ever more complex IOUs, and default and settlement risks became concerns. Money and the institutions issuing it came into existence to address this growing complexity and the associated difficulty in maintaining trust. 
 
 货币在促进经济流通交换方面起着至关重要的作用。在数千年前货币还未出现之时，货物主要通过一定的未来回报利益凭证（即交易欠条）来进行交易。[3] 然而，随着社会规模和经济活动的扩大，记录大范围错综复杂的欠条记录变得十分困难，同时也增加了对违约和结算风险的担忧。货币和发行它的机构应运而生，以应对日益增长的交易复杂性和解决相对困难的信任问题。
+
+Money has three fundamental and complementary roles. It is: (i) a unit of account – a yardstick that eases comparison of prices across the things we buy, as well as the value of promises we make; (ii) a medium of exchange: a seller accepts it as a means of payment, in the expectation that somebody else will do the same; and (iii) a store of value, enabling users to transfer purchasing power over time.[4]
+
+货币有三个基本和互补的功能。那就是：（i）基础账户单位————一个价值单位标准，可以简单比较我们购买东西的价格，以及我们做出承诺的商业价值;（ii）交易媒介：卖方在认为其他人也会接受货币的认知下接受货币作为支付手段;（iii）价值存储，使用户能够不受时间影响的转移购买力。[4]
+
+To fulfil these functions, money needs to have the same value in different places and to keep a stable value over time: assessing whether to sell a certain good or service is much easier if one is certain that the received currency has a guaranteed value in terms of both current and future purchasing power. One way to achieve this is by pure commodity moneys with intrinsic value, such as salt or grain. But commodity money by itself does not effectively support exchange: it may not always be available, is costly to produce and cumbersome in exchange, and may be perishable.[5] 
+
+为了实现这些功能，货币需要在不同的使用场景里具有相同的价值并且随着时间的推移保持价值的稳定：如果使用者确定（或者在共识上确信）所收到的货币具有保证价值，以用于保证当前和未来的购买力，则评估是否出售某种商品或服务要容易得多。实现这一目标的一种方法是使用具有内在价值的纯商品货币，例如盐或谷物。但商品货币本身并不能有效地支持交换：它们可能并不总是可以随时使用，生产成本高，交换繁琐，并且可能易腐烂。[5] 
+
