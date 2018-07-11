@@ -1,7 +1,7 @@
 ---
 title: cryptocurrencies：looking-beyond-the-hype
 标题：加密货币：除了炒作之外
-tags:
+tags:前12页
 ---
 原文地址：https://www.bis.org/publ/arpdf/ar2018e5.pdf
 
@@ -41,5 +41,12 @@ Money has three fundamental and complementary roles. It is: (i) a unit of accoun
 
 To fulfil these functions, money needs to have the same value in different places and to keep a stable value over time: assessing whether to sell a certain good or service is much easier if one is certain that the received currency has a guaranteed value in terms of both current and future purchasing power. One way to achieve this is by pure commodity moneys with intrinsic value, such as salt or grain. But commodity money by itself does not effectively support exchange: it may not always be available, is costly to produce and cumbersome in exchange, and may be perishable.[5] 
 
-为了实现这些功能，货币需要在不同的使用场景里具有相同的价值并且随着时间的推移保持价值的稳定：如果使用者确定（或者在共识上确信）所收到的货币具有保证价值，以用于保证当前和未来的购买力，则评估是否出售某种商品或服务要容易得多。实现这一目标的一种方法是使用具有内在价值的纯商品货币，例如盐或谷物。但商品货币本身并不能有效地支持交换：它们可能并不总是可以随时使用，生产成本高，交换繁琐，并且可能易腐烂。[5] 
+为了实现这些功能，货币需要在不同的使用场景里具有相同的价值并且随着时间的推移保持价值的稳定：如果使用者确定（或者在共识上确信）所收到的货币具有保证价值，以用于保证当前和未来的购买力，则评估是否出售某种商品或服务要容易得多。实现这一目标的一种方法是使用具有内在价值的纯商品货币，例如盐或谷物。但商品货币本身并不能有效地支持交换：它们可能并不总是可以随时使用，生产成本高，交换繁琐，并且可能会腐烂（不能持续保值）。[5] 
 
+The expansion of economic activity required more convenient moneys that could respond to increasing demand, be efficiently used in trade and have a stable value. However, maintaining trust in the institutional arrangements through which money is supplied has been the biggest challenge. Around the world, in different settings and at different times, money started to rely on issuance by centralised authorities. From ancient times, the stamp of a sovereign certified a coin’s value in transactions. Later, bills of exchange intermediated by banks developed as a way for merchants to limit the costs and risks of travelling with large quantities of coinage.[6]
+
+经济活动的扩大需要更方便易用的货币，这些货币可以应对不断增长的交易需求，有效地用于贸易并具有稳定的价值。然而，保持对货币供应的制度安排的信任成为了最大的挑战。在世界各地，在不同的环境和时期，货币开始依赖于中央政府的发行。从远古时代起，君主的印章为硬币在流通中的价值进行了权利背书。后来，银行发行的汇票被商人越来越多使用，作为一种不再需要持有大量现金来进行交易的手段，减少了进行长途贸易的成本和风险。[6]
+
+However, historical experience also made clear an underlying trade-off, for currencies that are supplied flexibly can also be debased easily.[7] Sustained episodes of stable money are historically much more of an exception than the norm. In fact, trust has failed so frequently that history is a graveyard of currencies. Museums around the world devote entire sections to this graveyard – for example, room 68 of the British Museum displays stones, shells, tobacco, countless coins and pieces of paper, along with many other objects that lost their acceptability as exchange and found their way to this room. Some fell victim to the expansion of trade and economic activity, as they were rendered inconvenient with a larger scale of use. Some were discarded when the political order that supported them weakened or fell. And many others fell victim to the erosion of trust in the stability of their value.
+
+然而，历史经验也清楚地表明了潜在的权衡，因为灵活供应的货币也可以轻易贬值。[7]稳定货币的持续情况在历史上比常规更为例外。 事实上，信任经常失败，以至于历史是货币的坟墓。 世界各地的博物馆将整个部分用于这个墓地 - 例如，大英博物馆的68号房间展示了石头，贝壳，烟草，无数的硬币和纸张，以及许多其他物品，这些物品在交换时失去了可接受性，并找到了自己的方式。 这个房间。 一些人成为贸易和经济活动扩张的受害者，因为他们在使用规模较大时变得不方便。 当支持他们的政治秩序削弱或下降时，有些人被抛弃了。 许多其他人成为他们价值稳定性信任受损的牺牲品。
