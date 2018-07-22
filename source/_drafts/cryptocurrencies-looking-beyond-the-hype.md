@@ -15,7 +15,7 @@ Forking has contributed to the explosive growth in the number of cryptocurrencie
 
 Frequent episodes of forking may be symptomatic of an inherent problem with the way consensus is formed in a cryptocurrency’s decentralised network of miners. The underlying economic issue is that this decentralised consensus is not unique. The rule to follow the longest chain incentivises miners to follow the computing majority, but it does not uniquely pin down the path of the majority itself. For example, if a miner believes that the very last update of the ledger will be ignored by the rest of the network of miners, it becomes optimal for the miner to also ignore this last update. And if the majority of miners coordinates on ignoring an update, this indeed becomes a new equilibrium. In this way, random equilibria can arise – and indeed frequently have arisen, as indicated by forking and by the existence of thousands of “orphaned” (Bitcoin) or “uncle” (Ethereum) blocks that have retroactively been voided. Additional concerns regarding the robustness of the decentralised updating of the blockchain relate to miners’ incentives to strategically fork whenever the block added last by a different miner includes high transaction fees that can be diverted by voiding the block in question via a fork.
 
-加密货币的分布式矿工网络形成共识的方式天然就会带来频繁发生的分叉问题。这里背后的经济学问题在于这个分布式共识并不是唯一的。“遵循最长链”这一规则引导矿工去跟从大多数算力的行为，但是它并没有唯一地确定大多数矿工自己的选择。比如，如果一个矿工相信账本最新一次的更新将会被网络中的其他矿工忽略，那么对他来说最优的选择是和其他矿工一样忽略这一次最新的更新。而如果大多数矿工联合起来忽略某次更新，这确实会出现一种新的均衡状态。通过这样的方式，可能、并且确实会出现一些随机的均衡状态，毕竟已经有了那么多的分叉，还有无法追溯的数千个孤块（比特币）和叔块（以太坊）。而关于去中心化的区块同步稳定性的其他问题，则涉及到矿工战略性分叉的动机。当其他矿工最新添加的区块中包含高手续费的交易时，矿工能够通过分叉废除那个区块并将这笔交易转移。
+加密货币的分布式矿工网络形成共识的方式天然就会带来频繁发生的分叉问题。这里背后的经济学问题在于这个分布式共识并不是唯一的。“遵循最长链”这一规则引导矿工去遵循大多数算力的行为，但是它并没有唯一地确定大多数矿工自己的选择。比如，如果一个矿工相信账本最新一次的更新将会被网络中的其他矿工忽略，那么对他来说最优的选择是和其他矿工一样忽略这一次最新的更新。而如果大多数矿工联合起来忽略某次更新，这确实会出现一种新的均衡状态。通过这样的方式，可能、并且确实会出现一些随机的均衡状态，毕竟已经有了那么多的分叉，还有无法追溯的数千个孤块（比特币）和叔块（以太坊）。而关于去中心化的区块同步稳定性的其他问题，则涉及到矿工战略性分叉的动机。当其他矿工最新添加的区块中包含高手续费的交易时，矿工能够通过分叉废除那个区块并将这笔交易转移。（Box V.A结束）
 
 Overall, decentralised cryptocurrencies suffer from a range of shortcomings. The main inefficiencies arise from the extreme degree of decentralisation: creating the required trust in such a setting wastes huge amounts of computing power, decentralised storage of a transaction ledger is inefficient and the decentralised consensus is vulnerable. Some of these issues might be addressed by novel protocols and other advances.27 But others seem inherently linked to the fragility and limited scalability of such decentralised systems. Ultimately, this points to the lack of an adequate institutional arrangement at the national level as the fundamental shortcoming.
 
@@ -31,15 +31,15 @@ While cryptocurrencies do not work as money, the underlying technology may have 
 
 To be sure, such payment solutions are fundamentally different from cryptocurrencies. A recent non-profit example is the case of the World Food Programme’s blockchain-based Building Blocks system, which handles payments for food aid serving Syrian refugees in Jordan. The unit of account and ultimate means of payment in Building Blocks is sovereign currency, so it is a “cryptopayment” system but not a cryptocurrency. It is also centrally controlled by the World Food Programme, and for good reason: an initial experiment based on the permissionless Ethereum protocol resulted in slow and costly transactions. The system was subsequently redesigned to run on a permissioned version of the Ethereum protocol. With this change, a reduction of transaction costs of about 98% relative to bank-based alternatives was achieved
 
-可以肯定的是，这类支付解决方案与加密货币是全然不同的。最近的一个非盈利的例子是世界粮食计划署的基于区块链的Building Block系统，这个系统用于处理为约旦叙利亚难民提供粮食援助的付款。Building Block系统的账户单元和最终的支付方式还是主权货币，所以这是一个“加密支付方式”而不是加密货币。并且这个系统是由世界粮食计划署中心化控制的，这有一个合理的理由：基于无权的以太坊协议会导致交易速度慢、费用高。这个系统随后被重新设计，运行在一个有权版本的以太坊协议中。在经过改版之后，比原来用银行处理交易的方式在交易成本上减少了98%。
+可以肯定的是，这类支付解决方案与加密货币是全然不同的。最近的一个非盈利的例子是世界粮食计划署的基于区块链的Building Block系统，这个系统用于处理为约旦叙利亚难民提供粮食援助的付款。Building Block系统的账户单元和最终的支付方式还是主权货币，所以这是一个“加密支付方式”而不是加密货币。并且这个系统是由世界粮食计划署中心化控制的，这有一个合理的理由：基于开放许可的以太坊协议会导致交易速度慢、费用高。这个系统随后被重新设计，运行在一个非开放许可版本的以太坊协议中。在经过改版之后，比原来用银行处理交易的方式在交易成本上减少了98%。
 
 Permissioned cryptopayment systems may also have promise with respect to small-value cross-border transfers, which are important for countries with a large share of their workforce living abroad. Global remittance flows total more than $540 billion annually (Graph V.8, left-hand and centre panels). Currently, forms of international payments involve multiple intermediaries, leading to high costs (right- hand panel). That said, while cryptopayment systems are one option to address these needs, other technologies are also being considered, and it is not clear which will emerge as the most efficient one.
 
-有权的加密支付系统能够运行小额跨境交易，对于那些在海外有大量的劳动力的国家来说这是非常有用的。每年全球汇款流动超过5400亿美元（如图V.8，左图和中间的图所示），目前国际支付的方式涉及多个中介，带来了很高的成本（如右图所示）。虽然加密支付系统是解决这个需求的一种选择，但是还有其他的技术也纳入了考虑范围内，并且哪一个会成为最有效的方式到现在也不清楚。
+非开放许可的加密支付系统能够运行小额跨境交易，对于那些在海外有大量的劳动力的国家来说这是非常有用的。每年全球汇款流动超过5400亿美元（如图V.8，左图和中间的图所示），目前国际支付的方式涉及多个中介，带来了很高的成本（如右图所示）。虽然加密支付系统是解决这个需求的一种选择，但是还有其他的技术也纳入了考虑范围内，并且哪一个会成为最有效的方式到现在也不清楚。
 
 More important use cases are likely to combine cryptopayments with sophisticated self-executing codes and data permission systems. Some decentralised cryptocurrency protocols such as Ethereum already allow for smart contracts that self-execute the payment flows for derivatives. At present, the efficacy of these products is limited by the low liquidity and intrinsic inefficiencies of permissionless cryptocurrencies. But the underlying technology can be adopted by registered exchanges in permissioned protocols that use sovereign money as backing, simplifying settlement execution. The added value of the technology will probably derive from the simplification of administrative processes related to complex financial transactions, such as trade finance (Box V.B). Crucially, however, none of the applications require the use or creation of a cryptocurrency.
 
-更重要的应用场景可能是结合复杂的自执行代码和数据许可系统的加密支付方式。一些去中心化的加密货币协议已经能够让智能合约自动执行衍生工具的支付流程，比如以太坊。目前来看，这些产品的效率被低流动性和无权的加密货币自有的低效率所限制。但是，以主权货币为支持的已注册交易所能够在有权协议中使用加密货币背后的技术，来简化结算执行流程。这项技术附加的价值将可能来自简化复杂金融交易相关的行政程序，比如交易金融（详情请见Box V.B）。然而，重点是没有一个应用需要使用或者创建一个加密货币。
+更重要的应用场景可能是结合复杂的自执行代码和数据许可系统的加密支付方式。一些去中心化的加密货币协议已经能够让智能合约自动执行衍生工具的支付流程，比如以太坊。目前来看，这些产品的效率被低流动性和开放许可的加密货币自有的低效率所限制。但是，以主权货币为支持的已注册交易所能够在非开放许可的协议中使用加密货币背后的技术，来简化结算执行流程。这项技术附加的价值将可能来自简化复杂金融交易相关的行政程序，比如交易金融（详情请见Box V.B）。然而，重点是没有一个应用需要使用或者创建一个加密货币。
 
 Policy implications
 
@@ -48,7 +48,6 @@ Policy implications
 The rise of cryptocurrencies and related technology brings to the fore a number of policy questions. Authorities are looking for ways to ensure the integrity of markets and payment systems, to protect consumers and investors, and to safeguard overall financial stability. An important challenge is to combat illicit usage of funds. At the same time, authorities want to preserve long-run incentives for innovation and, in particular, maintain the principle of “same risk, same regulation”.29 These are largely recurrent objectives, but cryptocurrencies raise new challenges and potentially call for new tools and approaches. A related question is whether central banks should issue their own central bank digital currency (CBDC).
 
 加密货币和相关技术的兴起带来了一系列的政策问题。当局正在寻找确保市场和支付系统完整性的方法，来保护消费者和投资者，维护整个金融体系的稳定性。其中一个重大的挑战是打击非法集资。同时，当局希望能够长期鼓励创新，特别是维持“风险相同，监管相同”的原则。这些主要是经常性的目标，但是加密货币带来了新的挑战并且可能带来新的工具和手段。另一个相关的问题就是，央行们是否会发行他们自己的数字货币（Central Bank Digital Currency，CBDC）。
-
 
 Regulatory challenges posed by cryptocurrencies
 
@@ -80,7 +79,7 @@ However, the design and effective implementation of strengthened standards are c
 
 Operationally, the main complicating factor is that permissionless cryptocurrencies do not fit easily into existing frameworks. In particular, they lack a legal entity or person that can be brought into the regulatory perimeter. Cryptocurrencies live in their own digital, nationless realm and can largely function in isolation from existing institutional environments or other infrastructure. Their legal domicile – to the extent they have one – might be offshore, or impossible to establish clearly. As a result, they can be regulated only indirectly. 
 
-在操作层面上，主要的复杂因素是无权的加密货币并不能简单地融入现有的框架中，特别是它们缺少一个法律实体或者个人来让加密货币纳入监管范围。加密货币们活在他们自己的数字化、无国界的疆域中，并且能很大程度在与现有制度环境或者其他基础设施的隔离开来。它们的合法住所-只要他们有一个-就只可能是离岸的，或者不可能明确建立起来。最后结果是它们只能够被间接地监管。
+在操作层面上，主要的复杂因素是开放许可的加密货币并不能简单地融入现有的框架中，特别是它们缺少一个法律实体或者个人来让加密货币纳入监管范围。加密货币们活在他们自己的数字化、无国界的疆域中，并且能很大程度在与现有制度环境或者其他基础设施的隔离开来。它们的合法住所-只要他们有一个-就只可能是离岸的，或者不可能明确建立起来。最后结果是它们只能够被间接地监管。
 
 How can authorities implement a regulatory approach? Three considerations are relevant. 
 
@@ -96,10 +95,9 @@ Second, the interoperability of cryptocurrencies with regulated financial entiti
 
 Third, regulation can target institutions offering services specific to cryptocurrencies. For example, to ensure effective AML/CFT, regulation could focus on the point at which a cryptocurrency is exchanged into a sovereign currency. Other existing laws and regulations relating to payment services focus on safety, efficiency and legality of use. These principles could also be applied to cryptocurrency infrastructure providers, such as “crypto wallets”.36 To avoid leakages, the regulation would ideally be broadly similar and consistently implemented across jurisdictions. 
 
-第三，监管能够针对专门提供加密货币相关服务的机构。比如，为了保证能够有效地反洗钱/打击恐怖主义集资，监管需要着重关注加密货币兑换为主权货币的点。其他现存的关于支付服务的法律法规着重于安全、效率和合法使用等方面。这些规则也能被用在加密货币基础设施提供商上，比如加密钱包。为了避免遗漏，这些法规最理想的是在不同辖区里都大致相似并且都能够得到一致地执行。
+第三，监管能够针对专门提供加密货币相关服务的机构。比如，为了保证能够有效地反洗钱/打击恐怖主义集资，监管需要着重关注加密货币兑换为主权货币的点。其他现存的关于支付服务的法律法规着重于安全、效率和合法使用等方面。这些规则也能被用在加密货币基础设施提供商上，比如加密钱包。为了避免遗漏，这些法规最理想的是在不同辖区里都大致相似，并且都能够得到一致地执行。
 
 Distributed ledger technology in trade finance （Box V.B)
-
 
 贸易金融中的分布式账本技术（Box V.B）
 
@@ -113,7 +111,7 @@ Trade financing offered by banks and other financial institutions aims to bridge
 
 In its current form (Graph V.B, left-hand panel), trade finance is cumbersome, complex and costly. It involves multiple document exchanges between the exporter, the importer, their respective banks, and agents making physical checks of shipped goods at each checkpoint, as well as customs agencies, public export credit agencies or freight insurers. The process often involves paper-based administration. DLT can simplify the execution of the underlying contracts (right-hand panel). For example, a smart contract might automatically release payment to the exporter upon the addition of a valid bill of lading to the ledger. And the better availability of information on which shipments have already been financed could also reduce the risk that exporters illegally obtain credit multiple times for the same shipment from different banks. 
 
-按照目前的形式（图V.B，左边），贸易融资过程十分繁琐而且成本高昂。它涉及到出口商，进口商，双方各自的银行，在验货点的检查货物的代理人，以及海关机构、公共出口信贷机构或货运保险公司之间多份文件的交换。这个过程经常涉及到纸质文件的管理。分布式账本技术能够简化这些合同的执行流程（如右图所示）。比如，一个智能合约能够自动在货物提单记录在账本上之后把货款释放给出口商。并且对于已经融资的货物信息更容易获得，从而降低出口商从不同银行非法获得同一批货物贷款的风险。
+按照目前的形式（图V.B，左边），贸易融资过程十分繁琐而且成本高昂。它涉及到出口商，进口商，双方各自的银行，在验货点的检查货物的代理人，以及海关机构、公共出口信贷机构或货运保险公司之间多份文件的交换。这个过程经常涉及到纸质文件的管理。分布式账本技术能够简化这些合同的执行流程（如右图所示）。比如，一个智能合约能够自动在货物提单记录在账本上之后把货款释放给出口商。并且对于已经融资的货物信息更容易获得，从而降低出口商从不同银行非法获得同一批货物贷款的风险。（Box V.B结束）
 
 Should central banks issue digital currencies? 
 
@@ -121,7 +119,7 @@ Should central banks issue digital currencies?
 
 A related medium-term policy question concerns the issuance of CBDCs, including who should have access to them. CBDCs would function much like cash: the central bank would issue a CBDC initially, but once issued it would circulate between banks, non-financial firms and consumers without further central bank involvement.37 Such a CBDC might be exchanged between private sector participants bilaterally using distributed ledgers without requiring the central bank to keep track and adjust balances. It would be based on a permissioned distributed ledger (Graph V.2), with the central bank determining who acts as a trusted node. 
 
-一个与话题相关的、中期的政策问题是央行发行自己的数字货币的问题（Central Bank Digitial Currency，CBDC），包括谁能够获得它们。央行数字货币会和法币一样波动。最初会是央行发布数字货币，一旦发布，这些货币会在银行、非金融公司和消费者之间流通起来，不需要央行更多的干涉。这样的央行数字货币可能会在私营部门参与者双边使用分布式账本，而不需要央行来跟踪交易记录和调节余额。它会基于有权分布式账本（如图V.2所示），由央行决定谁能够作为授信节点。
+一个与话题相关的、中期的政策问题是央行发行自己的数字货币的问题（Central Bank Digitial Currency，CBDC），包括谁能够获得它们。央行数字货币会和法币一样波动。最初会是央行发布数字货币，一旦发布，这些货币会在银行、非金融公司和消费者之间流通起来，不需要央行更多的干涉。这样的央行数字货币可能会在私营部门参与者双边使用分布式账本，而不需要央行来跟踪交易记录和调节余额。它会基于非开放许可的分布式账本（如图V.2所示），由央行决定谁能够作为授信节点。
 
 While the distinction between a general purpose CBDC and existing digital central bank liabilities – reserve balances of commercial banks – may appear technical, it is actually fundamental in terms of its repercussions for the financial system. A general purpose CBDC – issued to consumers and firms – could profoundly affect three core central banking areas: payments, financial stability and monetary policy. A recent joint report by the Committee on Payments and Market Infrastructures and the Markets Committee highlights the underlying considerations.38 It concludes that the strengths and weaknesses of a general purpose CDBC would depend on specific design features. The report further notes that, while no leading contenders have yet emerged, such an instrument would come with substantial financial vulnerabilities, while the benefits are less clear. 
 
@@ -145,7 +143,7 @@ As part of their broader ventures into new payment technology, central banks are
 
 There are two key challenges for the implementation of wholesale CBDCs. First, the limitations of permissionless DLT also apply to CBDCs, meaning that they need to be modelled on permissioned protocols. Second, the design choices for the convertibility of central bank reserves in and out of the distributed ledger need to be implemented carefully, so as to sustain intraday liquidity while minimising settlement risks.
 
-实施大规模的央行数字货币有两个主要的挑战。首先，无权分布式账本技术的局限性在央行数字货币中也会显现出来，也就是说他们需要被修改为有权的协议。其次，央行储备进出分布式账本的可兑换性的设计选择需要谨慎实施，以维持日内流动性，同时降低结算风险。
+实施大规模的央行数字货币有两个主要的挑战。首先，开放许可的分布式账本技术的局限性在央行数字货币中也会显现出来，也就是说他们需要被修改为非开放许可的协议。其次，央行储备进出分布式账本的可兑换性的设计选择需要谨慎实施，以维持日内流动性，同时降低结算风险。
 
 A number of central banks, including the Bank of Canada (Project Jasper), the ECB, the Bank of Japan (Project Stella) and the Monetary Authority of Singapore (Project Ubin), have already run experiments operating DLT-based CBDC wholesale RTGS systems. In most cases, the central banks have chosen a digital depository receipt (DDR) approach, whereby the central bank issues digital tokens on a distributed ledger backed by and redeemable for central bank reserves held in a segregated account. The tokens can then be used to make interbank transfers on a distributed ledger.
 
