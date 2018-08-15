@@ -84,11 +84,11 @@ There is definitely a pattern here!
 
 All of these issues happen because of some unfortunate or irresponsible circumstance that takes advantage of the fact that there is only one layer of security protecting a user’s assets, and there are no take-backs in this world.
 
-所有这些问题的发生都是因为不负责任地只用一层安全措施保护自已的资产，而且这个世界上没有任何其他措施挽回。
+所有这些问题的发生都是因为不负责任地只用一层安全措施保护自已的资产，而且暂时没有任何其他措施可以挽回。
 
 Now, some of you might be reading this thinking, “Hrmph! I am incorruptible, invincible, and unable to ever make a mistake!”
 
-现在，你们中的一些人可能正在想着，“Hrmph！我无敌，无畏，我不会犯错！”
+现在，你们中的一些人可能正在想着，“Hrmph！我无敌，我无畏，我不会犯错！”
 
 Let me be clear, there are plenty of people in the world who are perfectly capable of controlling their own private key and managing it completely on their own, be that with a hardware wallet, cold wallet, or some other solution. And in a perfect world, we all would be able to do that and nobody would try to steal from anyone!
 
@@ -96,18 +96,19 @@ Let me be clear, there are plenty of people in the world who are perfectly capab
 
 Unfortunately, we live in a world where the vast majority of the population has more important things to worry about than using a bunch of extra brain power and work to secure their keys.
 
-不幸的是，我们生活在这样一个世界，我们绝大多数人都有更重要的事情需要担心，而不是使用一堆额外的脑力并努力保护他们的私钥。
+不幸的是，我们生活的世界里，绝大多数人都有更重要的事情需要担心，而不是使用一堆额外的脑力努力保护他们的密钥。
 
 You might be the kind of person who wants complete control, and that is completely fair, but I think we can all agree that most humans (including myself) can be irresponsible, forgetful, or simply too busy to be bestowed with this kind of responsibility.
 
-你可能是那种想要完全控制的人，这是完全公平的，但我认为我们都同意大多数人（包括我自己）可能是不负责任的，健忘的，或者只是太忙而无法承担这种责任。
+你可能是那种想要完全控制的人，这是完全公平的，但我认为我们都同意大多数人（包括我自己）这是不负责任的，健忘的，或者只是太忙而无法承担这种责任。
 
 #### It is obvious that it is unreasonable to expect everyone to have one authorization key and be able to keep it safe and secure themselves.
 
-很明显，期望每个人都拥有一个授权密钥并且能够保证自己的安全是不合理的。
-然而，这产生了一个问题。以太坊基于仅与一个密钥相关联的帐户，因此添加额外的安全复杂性层可能存在风险和挑战。
+很明显，每个人只有一个授权密钥并且能够保证能保存好是不合理的。
 
 This indroduces an issue though. Ethereum is based around accounts being associated with just one key, so adding additional layers of security complexity could be risky and challenging.
+
+然而，这产生了一个问题。基于以太坊仅有一个密钥的帐户体系下，要添加额外的安全复杂性层可能存在风险和挑战。
 
 ### How are existing solutions solving this issue?
 
@@ -115,7 +116,7 @@ This indroduces an issue though. Ethereum is based around accounts being associa
 
 There are a few offerings out there that acknowledge this issue and look to provide solutions that are safer and easier than a single key solution. Unfortunately, they mostly aren’t good enough to satisfy all the security requirements that users need while also providing complete and a good user experience.
 
-有一些产品可以解决这个问题，并提供比单一密钥解决方案更安全，更方便的解决方案。不幸的是，它们大多不足以满足用户需要的所有安全要求，同时还提供完整和良好的用户体验。
+有一些产品可以解决这个问题，并提供比单一密钥解决方案更安全，更方便的解决方案。不幸的是，它们大多数不足以满足用户需要的所有安全要求，同时还提供完整和良好的用户体验。
 
 **Solution #1: Centralized storage**
 
@@ -123,7 +124,7 @@ There are a few offerings out there that acknowledge this issue and look to prov
 
 **Company controls your crypto account on your behalf, similar to a traditional bank.** You sign into a centrally managed system with a traditional password and tell the company to sign transactions for you.
 
-公司代表您控制您的加密帐户，类似于传统银行。您使用传统密码登录集中管理的系统，并允许公司为您签署交易。
+公司代表您控制您的加密帐户，类似于传统银行。您使用密码登录并集中管理，系统并允许公司为您签署交易。
 
 **Pros:**
 
