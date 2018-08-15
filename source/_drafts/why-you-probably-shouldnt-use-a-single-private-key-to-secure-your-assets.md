@@ -7,21 +7,21 @@ _Reasons why it is unreasonable to expect yourself and everyone else in the worl
 
 
 
-![](https://cdn-images-1.medium.com/freeze/max/60/1*W65-DR2esMrCvm0Ig8pMpg.jpeg?q=20)
-
-![](https://cdn-images-1.medium.com/max/1600/1*W65-DR2esMrCvm0Ig8pMpg.jpeg)
 
 ![](https://cdn-images-1.medium.com/max/1600/1*W65-DR2esMrCvm0Ig8pMpg.jpeg)
 
 #### Let me tell you a story….
+
 让我告诉你一个故事......
 
 Matthew Mellon \[1\] was a guy who had high hopes for the cryptocurrency Ripple (XRP). He saw Ripple as a great step forward for the future of American banking. Matthew was one of the first investors in Ripple, and would buy more over the years as the popularity (and price) grew.
+
 Matthew Mellon [1]是一个对瑞波币Ripple（XRP）寄予厚望的人。他认为瑞波币是美国银行业未来的一大进步。Matthew是瑞波币的首批投资者之一，随着人气（和价格）的增长，多年来他不断增持更多的XRP。
 
 As Matthew acquired more XRP, he separated his holdings into a few different accounts.
 
 > Matthew Mellon held almost all of his fortune in Ripple in cold wallets all around the country, with no one else knowing the codes to the wallets. A cold wallet is a vault that is not connected to the internet for safety measures, to avoid hacks or breaches.
+
 随着Matthew拥有更多的XRP资产，他将所有的XRP分成几个不同的账户的冷钱包里，并把他们分散存放在在不同地方的保险库内，并且没有人知道他冷钱包的密码。冷钱包是一种未连接到互联网的，以避免黑客攻击或破坏的安全保险库。
 
 Matthew is a smart guy! He is a millionaire who made sure he knew how to manage his crypto holdings himself, keeping his access codes in his head to stay safe from pesky hackers stealing them from a bank.
