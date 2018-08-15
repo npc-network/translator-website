@@ -5,6 +5,7 @@ tags:
 
 _Reasons why it is unreasonable to expect yourself and everyone else in the world to only have one fragile layer of security for their assets_
 
+为什么数字资产只有一层脆弱的安全保障是不合理的
 
 
 
@@ -16,13 +17,13 @@ _Reasons why it is unreasonable to expect yourself and everyone else in the worl
 
 Matthew Mellon \[1\] was a guy who had high hopes for the cryptocurrency Ripple (XRP). He saw Ripple as a great step forward for the future of American banking. Matthew was one of the first investors in Ripple, and would buy more over the years as the popularity (and price) grew.
 
-Matthew Mellon [1]是一个对瑞波币Ripple（XRP）寄予厚望的人。他认为瑞波币是美国银行业未来的一大进步。Matthew是瑞波币的首批投资者之一，随着人气（和价格）的增长，多年来他不断增持更多的XRP。
+Matthew Mellon [1]是一个对瑞波币Ripple（XRP）寄予厚望的人。他认为瑞波币是美国银行业未来的一大进步。Matthew是瑞波币的首批投资者之一，随着人气（和价格）的增长，多年来他不断增持XRP。
 
 As Matthew acquired more XRP, he separated his holdings into a few different accounts.
 
 > Matthew Mellon held almost all of his fortune in Ripple in cold wallets all around the country, with no one else knowing the codes to the wallets. A cold wallet is a vault that is not connected to the internet for safety measures, to avoid hacks or breaches.
 
-随着Matthew拥有更多的XRP资产，他将所有的XRP分成几个不同的账户的冷钱包里，并把他们分散存放在在不同地方的保险库内，并且没有人知道他冷钱包的密码。冷钱包是一种未连接到互联网的，以避免黑客攻击或破坏的安全保险库。
+随着Matthew拥有更多的XRP资产，他将所有的XRP分别保存在几个不同的账户冷钱包里，并把他们分散存放在在不同地方的保险库内，并且没有人知道他冷钱包的密码。冷钱包是一种未连接到互联网的物理设备，以避免黑客通过网络攻击或破坏。
 
 Matthew is a smart guy! He is a millionaire who made sure he knew how to manage his crypto holdings himself, keeping his access codes in his head to stay safe from pesky hackers stealing them from a bank.
 
@@ -42,7 +43,7 @@ huh? himself?
 
 Oh yeah. I forgot to mention that Matthew Melon died of a heart attack on April 16th. And when he died, his $500 million in XRP essentially died with him. The XRP is still there! But unfortunately, anyone who wants to access it will need those access codes that are only stored in electrical signals in Matthew’s brain, which disappeared in April.
 
-对了。我忘了说Matthew 在4月16日死于心脏病。当他去世时，他5亿美元的XRP基本上和他一起死了。 虽然XRP还在那里，但不幸的是，任何想要访问它的人都需要那些仅存储在Matthew大脑中的访问代码，这些代码在4月份消失了。
+对了。我忘了说Matthew 在4月16日死于心脏病。当他去世时，他5亿美元的XRP基本上和他一起死了。 虽然XRP还在那里，但不幸的是，任何想要访问它的人都需要那些仅存在Matthew大脑中的访问密码，这些密码在4月份消失了。
 
 While Matthew’s story might be the first instance of an extremely rich family losing all their cryptocurrency because of a death, it is by no means the first time anyone has been burned from relying on a single private authorization key to secure an account on a blockchain. Unsurprisingly, this is one of the biggest causes of lost or stolen cryptocurrency.
 
@@ -58,19 +59,19 @@ This is unacceptable! How could all of this value have been lost? Lets look at s
 
 **Lost private keys:** Someone stores their private key either in their brain, on a piece of paper, locally on their computer, or in a hardware wallet. Through one reason or another, it is forgotten, deleted, or lost and nobody can ever access the funds ever again.
 
-私钥的丢失：有人将他们的私钥存储在他们的大脑，纸上，本地计算机或硬件钱包中。由于这样或那样的原因，它被遗忘，删除或丢失，那就没有人能再获得资金。
+私钥的丢失：有人将他们的私钥存储在他们的大脑，纸上，本地计算机或硬件钱包中。由于这样或那样的原因，它被遗忘，删除或丢失，那就没有人能再获得资产。
 
 **Phishing attacks:** A very bad person gains the trust of the owner of the private key and somehow convinces them to reveal the key. The very bad person then uses the key to steal all of the victim’s assets secured by that key.
 
-钓鱼网络的攻击：一个非常糟糕的人获得私钥所有者的信任，并以某种方式说服他们泄露密钥。然后，非常坏的人使用密钥窃取该密钥保护的所有受害者资产。
+网络钓鱼的攻击：坏人通过欺骗获得信任，并以某种方式骗取他们的密钥。然后，坏人使用密钥窃取该密钥保护的资产。
 
 **Deaths:** Like Matthew’s case above, the only person who knows the keys dies and the knowledge, and therefore access, to the cryptoassets is lost forever.
 
-拥有者死亡：就像上面的Matthew案例一样，唯一知道密钥的人死了，因此访问加密资产的密钥也永远地丢失。
+拥有者死亡：就像上面的Matthew案例一样，唯一知道密钥的人死了，因此访问加密资产的密钥也永远地丢失了。
 
 **Private key hacks:** An unsuspecting victim stores their private key insecurely on one of their devices and a clever hacker finds a way in and steals the key. With this key, the hacker can access the victim’s account and steal all their cryptoassets.
 
-私钥攻击：一个不知情的受害者将他们的私钥不安全地存储在他们的一个设备上，一个聪明的黑客找到了一个方法并窃取了密钥。使用此密钥，黑客可以访问受害者的帐户并窃取他们所有的密码集。
+私钥攻击：一个不知情的受害者将他们的私钥不安全地存储在他们的一个设备上，一个聪明的黑客找到了一个方法并窃取了密钥。使用此密钥，黑客可以访问受害者的帐户并窃取他们所有的数字资产。
 
 
 ![](https://cdn-images-1.medium.com/max/1600/1*tOESAZSkdh01dgSKSs6flQ.gif)
@@ -79,7 +80,7 @@ There is definitely a pattern here!
 
 ### The single-key problem
 
-单键问题
+单一密钥的问题
 
 All of these issues happen because of some unfortunate or irresponsible circumstance that takes advantage of the fact that there is only one layer of security protecting a user’s assets, and there are no take-backs in this world.
 
