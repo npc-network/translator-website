@@ -135,7 +135,7 @@ There are a few offerings out there that acknowledge this issue and look to prov
 优点：
 
 *  可以简单地被动地持有金融资产
-*  正确完成后可以安全（但很少）
+*  当正确处理时是安全的（但有要求）
 *  简化部分区块链技术方面要求
 
 **Challenges:**
@@ -164,7 +164,7 @@ There are a few offerings out there that acknowledge this issue and look to prov
 
 优点：
 
-*   只需要签名的一部分，以防止死亡或丢失签名。
+*   只需要签名的一部分，以防止死亡或签名丢失。
 *   控制权在于所有者而非第三方。
 *   可以更改丢失或被盗的钥匙以防止被盗
 
@@ -177,12 +177,12 @@ There are a few offerings out there that acknowledge this issue and look to prov
 挑战：
 
 *  实现此目标所需的智能合约可能很复杂，这可能会引入可能导致漏洞的复杂性和意外行为。
-*  当需要多个人执行交易时，很难与分散的应用程序交互。
+*  当需要多个人执行交易时，很难与分布式的应用程序交互。
 *  用户体验仍然不是最理想的，需要技术知识来处理
 
 As you can see, the existing solutions can work in certain situations, but all have drawbacks. Is there a way we can have all the pros of these solutions, but none of the cons?
 
-如您所见，现有解决方案可以在某些情况下工作，但都有缺点。有没有办法我们可以拥有这些解决方案的所有优点，但没有一个缺点？
+如您所见，现有解决方案可以在某些情况下工作，但都有缺点，并不那么完美。有没有一种方案有他们所有的优点，但没有缺点？
 
 ![](https://cdn-images-1.medium.com/max/1600/1*ttxBTM5pgIzdL0N1kSQfUg.gif)
 
@@ -229,26 +229,26 @@ These private keys can be maintained in a variety of configurations which run th
 
 A unique feature of our contracts is that all message signing takes place off -chain, with the final message being forwarded to the contract afterward. This gives us the flexibility for users to maintain private keys themselves in several locations distributing signing mechanisms throughout an intranet of personal contacts, for instance, enhancing ownership and security.
 
-我们的合同的一个独特之处在于，所有消息签名都是在链外进行的，最后的消息会在之后转发给合同。这为用户提供了灵活性，使用户可以在几个位置保护私钥，在整个个人联系人的内联网中分发签名机制，例如，增强所有权和安全性。
+我们的合同的一个独特之处在于，所有消息签名都是在链外进行，最后的消息会在之后转发给合同。这为用户提供了灵活性，使用户可以在几个位置保护私钥，在整个个人联系人的内联网中分发签名机制，例如，增强所有权和安全性。
 
 
 ![](https://cdn-images-1.medium.com/max/1600/1*r96qkipf_j6cu7OG47P4hw.png)
 
 Users sign transactions with their multiple keys, which are then forwarded through their account’s smart contract and posted to the blockchain
 
-用户使用多个密钥签署交易，然后通过其帐户的智能合约转发并发布到区块链
+用户用多密钥签署交易，然后通过其帐户的智能合约并发布到区块链上
 
 **How does this solve the problems of the other solutions?**
 
-这如何解决其他解决方案的问题？
+这是如何解决其他解决方案中出现的问题呢？
 
 As you can see, the flexibility of control this setup offers to users is unparalleled by current offerings. Our solution uses this technology to provide users with an even more secure and user friendly wallet experience.
 
-正如您所看到的，此设置为用户提供的控制灵活性是当前产品所无法比拟的。我们的解决方案使用此技术为用户提供更安全和用户友好的钱包体验。
+正如您所看到的，为用户提供的灵活设置是当前产品所无法比拟的。我们的解决方案为用户提供更安全和友好的钱包体验。
 
 Since we separates transaction signing and spending, users do not have to worry about specifying and paying for transaction fees within the system, thus alleviating a technical hurdle that many wallet users are very confused about in other solutions. The application actively monitors, manages, and pays for transactions fees under the hood in order for transactions to be sent and processed in a timely manner.
 
-由于我们将交易签名和支出分开，用户不必担心在系统内指定和支付交易费用，从而减轻了许多钱包用户在其他解决方案中非常困惑的技术障碍。该应用程序主动监控，管理和支付交易费用，以便及时发送和处理交易。
+由于我们将交易签名和发送分开，所以不必担心系统内的交易费用，并且减轻了在其他解决方案中困惑用户的技术障碍。该应用程序监控，管理和支付交易费用，以便及时发送和处理交易。
 
 Additionally, Because of the power of multisig wallets, there’s no problem if one of the private keys is lost or exposed. Using the other keys, the compromised key can be recovered or changed to protect against user error and unexpected deaths.
 
@@ -256,7 +256,7 @@ Additionally, Because of the power of multisig wallets, there’s no problem if 
 
 And lastly, this multisig wallet setup is a very low-complexity smart contract, meaning that the attack surface is very small with almost no room for possible vulnerabilities.
 
-最后，这个multisig钱包设置是一个非常低复杂度的智能合约，这意味着攻击面非常小，几乎没有可能存在漏洞的空间。
+最后，这个multisig钱包设置是一个非常低复杂度的智能合约，这意味着攻击面非常小，几乎没有可能存在漏洞。
 
 ### The path forward
 
@@ -264,11 +264,11 @@ And lastly, this multisig wallet setup is a very low-complexity smart contract, 
 
 As opportunities in blockchain and cryptoassets have grown significantly, more and more people and businesses are entering the space. There is a real threat of technical inexperience resulting in lost funds, and the average user cannot be trusted to manage their own private keys. Modular is working diligently to give businesses and users the management tools to solve these and other challenges.
 
-随着区块链和密码集中的机会显着增加，越来越多的人和企业进入这个领域。存在技术缺乏经验的真正威胁导致资金损失，并且普通用户无法信任管理他们自己的私钥。 Modular正在努力为企业和用户提供管理工具来解决这些和其他挑战。
+随着区块链和数字资产的机会显着增加，越来越多的人和企业进入这个领域。缺乏技术经验导致资金损失，并且普通用户无法信任第三方管理他们自己的私钥。 Modular正在努力为企业和用户提供管理工具来解决这些问题和挑战。
 
 If Matthew Mellon and more users had a sophisticated tool like what is described here, maybe we wouldn’t have already lost so much money!
 
-如果Matthew Mellon和更多用户拥有像这里描述的那样复杂的工具，也许我们不会已经损失了这么多钱！
+如果Matthew Mellon和其他用户拥有像这里描述的那样私密管理工具，也许就不会损失了这么多钱了！
 
 This was just a small taste of the security and functionality features that we will offer. Stay tuned and subscribe for more updates and product announcements from Modular. We’ll be detailing more features we offer in upcoming posts in the Modular publication, so make sure to follow in order to receive updates!
 
