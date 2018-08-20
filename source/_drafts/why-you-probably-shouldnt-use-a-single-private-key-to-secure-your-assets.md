@@ -145,7 +145,7 @@ There are a few offerings out there that acknowledge this issue and look to prov
 
 挑战：
 
-*   需要信任第三方。如果他们无法访问您的帐户（私钥）或被黑客入侵，您就会丢失资产
+*   需要信任第三方。如果他们丢失你的私钥或被黑客入侵，您的资产也会丢失
 *   仅限于没有管理功能 - 仅仅持有它们之外的资产很难使用
 
 **Solution #2: Multi-Sig Wallets Controlled by multiple people**
@@ -154,7 +154,7 @@ There are a few offerings out there that acknowledge this issue and look to prov
 
 **You and other friends/colleagues each have Ethereum accounts controlled by one private key which are used as authorization signatures in a multisig wallet.** You each control your accounts single private key in the normal way, but don’t hold any funds besides what is needed to execute transactions.
 
-您和其他朋友/同事各自拥有由一个私钥控制的以太坊帐户，这些私钥在multisig钱包中用作授权签名。每个人都以正常方式控制您的帐户单个私钥，但除了执行交易所需的资金之外，不要持有任何资金。
+您和您的其他朋友/同事各自拥有由一个私钥控制的以太坊帐户，这些私钥在multisig钱包中用作授权签名。每个人都以正常方式控制您的帐户单个私钥，但除了执行交易所需的资金之外，不要持有任何资金。
 
 **Pros:**
 
@@ -198,18 +198,18 @@ EIP-191和我们的解决方案
 
 The answer is yes, and it involves an interesting contract standard you might have heard of called [EIP-191: Signed Data Standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-191.md). This is a standard that separates the signing of transactions from the sending, allowing for some novel ways to interact with the Ethereum blockchain. This standard allows a contract to accept presigned data by the different keys associated with it and it is the central technology that underpins our upcoming cryptoasset custody application.
 
-答案是肯定的，它涉及一个你可能听说过的有趣的合同标准，称为EIP-191：签名数据标准。这是一种将交易签名与发送分开的标准，允许一些新颖的方式与以太坊区块链进行交互。该标准允许合同通过与其相关联的不同密钥接受预先签署的数据，并且它是支持我们即将推出的加密密码保管应用程序的核心技术。
+你可能听说过EIP-191：签名数据标准。这是一种将交易签名与发送分开的标准，允许一些新颖的方式与以太坊区块链进行交互。该标准允许合同通过与其相关联的不同密钥接受预先签署的数据，并且它是支持我们即将推出的加密密码保管应用程序的核心技术。
 
 We are building a desktop wallet application which uses a unique protocol that requires messages to be signed by multiple private keys. This protocol pieces messages together using an enhanced version of EIP-191. Additionally, we enact transactions through a custom smart contract assigned to each user which understands this protocol. The user’s assets are maintained within this contract and can only be accessed by the requisite private keys assigned to it.
 
-我们正在构建一个桌面钱包应用程序，它使用一种独特的协议，要求消息由多个私钥签名。该协议使用增强版EIP-191将消息组合在一起。此外，我们通过分配给了解此协议的每个用户的自定义智能合约来制定交易。用户的资产在此合同中维护，只能通过分配给它的必要私钥访问。
+我们正在构建一个桌面钱包应用程序，它使用这种独特的协议，要求消息由多个私钥签名。该协议使用增强版EIP-191将消息组合在一起。此外，我们通过分配给了解此协议的每个用户的自定义智能合约来制定交易。用户的资产在此合同中维护，只能通过分配给它的必要私钥访问。
 
 Unlike other multisigs though, this contract/account is only managed by one person! This is because we want to keep this level of security, but also give our users options for how they secure their keys, while never taking complete control of it ourselves.
 与其他multisigs不同，此合约/账户仅由一个人管理！这是因为我们希望保持这种安全级别，同时也为我们的用户提供了如何保护密钥的选项，同时也从不完全控制它。
 
 These private keys can be maintained in a variety of configurations which run the spectrum from decentralization to centralization, depending on the level of responsibility the user is comfortable with:
 
-这些私钥可以维护在各种配置中，这些配置运行从分散到集中的范围，具体取决于用户感到满意的责任级别：
+这些私钥可以维护各种配置，这些配置运行从分散到集中的范围，具体取决于用户感到满意的责任级别：
 
 1.  **Total Control:** The user maintains complete control of all private keys: These keys are encrypted and stored locally on the users device. The password that the user enters to sign into the application is used to decrypt the user profile that is stored locally.
 
@@ -217,11 +217,11 @@ These private keys can be maintained in a variety of configurations which run th
 
 2.  **Partial Control with 2FA:** The user maintains primary private keys and the applicatin maintains supporting private keys utilizing our 2-Factor Authentication. The 2-Factor Authentication code is what authorizes the second key to sign a transaction.
 
-2.  使用2FA进行部分控制：用户维护主私钥，应用程序使用我们的双因素身份验证维护支持私钥。双因素身份验证代码授权第二个签名交易的密钥。
+2.  使用2FA进行部分控制：用户维护主私钥，应用程序使用我们的2FA身份验证维护支持私钥。2FA身份验证代码授权第二个签名交易的密钥。
 
 3.  **Partial Control with Third-Party**: The user maintains the primary private key and stores a secondary key with a trusted third-party which automatically authorizes transactions.
 
-3.  使用第三方进行部分控制：用户维护主私钥并将辅助密钥与受信任的第三方存储，后者自动授权事务。
+3.  第三方进行部分控制：用户维护主私钥并将辅助密钥受以信任的第三方存储，后者自动授权事务。
 
 **With all of these solutions, the keys are always encrypted, stored locally, and handled by the application, removing the need for users to worry about handling their keys at all.**
 
@@ -229,7 +229,7 @@ These private keys can be maintained in a variety of configurations which run th
 
 A unique feature of our contracts is that all message signing takes place off -chain, with the final message being forwarded to the contract afterward. This gives us the flexibility for users to maintain private keys themselves in several locations distributing signing mechanisms throughout an intranet of personal contacts, for instance, enhancing ownership and security.
 
-我们的合同的一个独特之处在于，所有消息签名都是在链外进行的，最后的消息会在之后转发给合同。这为用户提供了灵活性，使用户可以在几个位置维护私钥，在整个个人联系人的内联网中分发签名机制，例如，增强所有权和安全性。
+我们的合同的一个独特之处在于，所有消息签名都是在链外进行的，最后的消息会在之后转发给合同。这为用户提供了灵活性，使用户可以在几个位置保护私钥，在整个个人联系人的内联网中分发签名机制，例如，增强所有权和安全性。
 
 
 ![](https://cdn-images-1.medium.com/max/1600/1*r96qkipf_j6cu7OG47P4hw.png)
