@@ -5,8 +5,7 @@ tags:
 
 _Reasons why it is unreasonable to expect yourself and everyone else in the world to only have one fragile layer of security for their assets_
 
-为什么数字资产只有一层脆弱的安全保障是不合理的
-
+为什么只用一个私钥管理数字资产中不合理的？
 
 
 ![](https://cdn-images-1.medium.com/max/1600/1*W65-DR2esMrCvm0Ig8pMpg.jpeg)
