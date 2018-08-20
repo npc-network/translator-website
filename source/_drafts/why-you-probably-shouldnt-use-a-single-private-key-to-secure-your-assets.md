@@ -16,7 +16,7 @@ _Reasons why it is unreasonable to expect yourself and everyone else in the worl
 
 Matthew Mellon \[1\] was a guy who had high hopes for the cryptocurrency Ripple (XRP). He saw Ripple as a great step forward for the future of American banking. Matthew was one of the first investors in Ripple, and would buy more over the years as the popularity (and price) grew.
 
-Matthew Mellon [1]是一个对瑞波币Ripple（XRP）寄予厚望的人。他认为瑞波币是美国银行业未来的一大进步。Matthew是瑞波币的首批投资者之一，随着人气（和价格）的增长，多年来他不断增持XRP。
+Matthew Mellon [1]是一个对瑞波币Ripple（XRP）寄予厚望的人。他认为瑞波币是美国银行业未来的一大进步。Matthew是瑞波币的首批投资者之一，随着XRP人气（和价格）的增长，多年来他不断增持。
 
 As Matthew acquired more XRP, he separated his holdings into a few different accounts.
 
@@ -30,7 +30,7 @@ Matthew是个聪明的百万富翁，他知道如何管理自己的加密资产�
 
 His XRP will never get taken by anyone! Even himself!
 
-他的XRP永远不会被任何人取走！连他自己！
+他不让任何人取走他的的XRP！连他自己也不能！
 
 …
 
@@ -79,11 +79,11 @@ There is definitely a pattern here!
 
 ### The single-key problem
 
-单一密钥的问题
+单一私钥的问题
 
 All of these issues happen because of some unfortunate or irresponsible circumstance that takes advantage of the fact that there is only one layer of security protecting a user’s assets, and there are no take-backs in this world.
 
-所有这些问题的发生都是因为不负责任地只用一层安全措施保护自已的资产，而且暂时没有任何其他措施可以挽回。
+所有这些问题的发生都是因为不负责任地只用一个私密保护自已的资产，而且这了这个暂时没有任何其他措施可以挽回。
 
 Now, some of you might be reading this thinking, “Hrmph! I am incorruptible, invincible, and unable to ever make a mistake!”
 
@@ -99,15 +99,15 @@ Unfortunately, we live in a world where the vast majority of the population has 
 
 You might be the kind of person who wants complete control, and that is completely fair, but I think we can all agree that most humans (including myself) can be irresponsible, forgetful, or simply too busy to be bestowed with this kind of responsibility.
 
-你可能是那种想要完全控制的人，这是完全公平的，但我认为我们都同意大多数人（包括我自己）这是不负责任的，健忘的，或者只是太忙而无法承担这种责任。
+你可能是那种想要完全控制的人，但我认为我们都同意大多数人（包括我自己）这是不负责任的，健忘的，或者只是太忙而无法承担这种责任。
 
 #### It is obvious that it is unreasonable to expect everyone to have one authorization key and be able to keep it safe and secure themselves.
 
-很明显，每个人只有一个授权密钥并且能够保证能保存好是不合理的。
+很明显，每个人只有一个私钥并且能够保证能保存好是不合理的。
 
 This indroduces an issue though. Ethereum is based around accounts being associated with just one key, so adding additional layers of security complexity could be risky and challenging.
 
-然而，这产生了一个问题。基于以太坊仅有一个密钥的帐户体系下，要添加额外的安全复杂性层可能存在风险和挑战。
+然而，这产生了一个问题。基于以太坊仅有一个密钥的帐户体系下，要添加额外的安全功能可能存在风险和挑战。
 
 ### How are existing solutions solving this issue?
 
